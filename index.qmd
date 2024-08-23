@@ -1,5 +1,5 @@
 ---
-title: "Página Teste - Reprodutibilidade Científica com o R 2024"
+title: "Reprodutibilidade Científica com o R 2024"
 author: "Giulia Terlecki"
 format: html
 editor: visual
