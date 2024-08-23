@@ -5,35 +5,10 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Repositório da disciplina de Reprodutibilidade Científica com o R do PPG em Ambientometria Furg 2024
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+###Giulia Terlecki - PhD Candidate
 
-## Running Code
+Este é um repositório produzido na disciplina "Reprodutibilidade de Resultados Cientificos com o R" - Programa de Pós-graduação em Ambientometria da Universidade Federal de Rio Grande - FURG - que propõe a divulgação de métodos e resultados científicos em páginas online de acesso público.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).uh
-
-<!-- Esse é o único jeito de fazer comentários que não serão vistos pelo programa como código ou texto -->
-
-A **ecologia trófica** é o estudo das interações alimentares dentro de um ecossistema, focando na transferência de energia e nutrientes entre diferentes níveis tróficos, desde produtores primários até os consumidores de topo. Ela é fundamental para compreender a estrutura e o funcionamento dos ecossistemas, já que as relações tróficas determinam a dinâmica populacional e a estabilidade ecológica. Em termos gerais, a ecologia trófica investiga como a energia é capturada pelos organismos autotróficos e transferida através da rede alimentar, influenciando a sobrevivência, reprodução e crescimento das espécies.
-
-Dentro da **ecologia trófica marinha**, a complexidade das cadeias alimentares é acentuada pela vasta diversidade de organismos e pelas variáveis físicas e químicas dos oceanos. Os oceanos abrigam um mosaico de interações tróficas, onde predadores de topo, como grandes peixes, mamíferos marinhos e tubarões, desempenham papéis cruciais na regulação das populações de suas presas. Essas interações são fundamentais para manter o equilíbrio ecológico, garantindo a saúde dos habitats marinhos e a biodiversidade. As mudanças nos níveis tróficos, causadas por fatores como a sobrepesca, podem ter efeitos em cascata, alterando a estrutura e a função dos ecossistemas marinhos.
-
-A **ecologia trófica de tubarões** é especialmente relevante devido ao seu papel como predadores de topo nos ecossistemas marinhos. Tubarões como o tubarão-azul (*Prionace glauca*) e o tubarão-anequim (*Isurus oxyrinchus*) influenciam significativamente a dinâmica das populações de suas presas, regulando a abundância e o comportamento de outras espécies marinhas. Estudar a ecologia trófica dos tubarões envolve analisar suas dietas, padrões de predação e a competição por recursos ao longo de suas ontogenias. Esses predadores são conhecidos por suas dietas variadas, que podem incluir peixes, cefalópodes e, ocasionalmente, aves marinhas. A compreensão dessas interações tróficas é crucial para prever as respostas dos ecossistemas marinhos às pressões antropogênicas, como a pesca e as mudanças climáticas.
-
-A **importância da compreensão da ecologia trófica para o manejo de espécies comercialmente exploradas** não pode ser subestimada. Espécies como o tubarão-azul, que é a mais capturada globalmente entre os tubarões, são particularmente vulneráveis à sobrepesca devido à sua baixa fecundidade e maturação tardia. O estudo de sua ecologia trófica fornece insights valiosos sobre seu papel no ecossistema, suas necessidades alimentares e as áreas críticas de habitat. Essas informações são essenciais para desenvolver estratégias de manejo que garantam a sustentabilidade das populações de tubarões, minimizando os impactos sobre o ecossistema marinho e protegendo as cadeias alimentares que dependem deles.
-
-No **caso específico do tubarão-azul**, a compreensão detalhada de sua ecologia trófica é vital para implementar práticas de manejo eficazes. Como a espécie mais capturada de tubarões, o tubarão-azul enfrenta uma pressão considerável da pesca comercial, especialmente em pescarias de espinhel no Oceano Atlântico. Pesquisas indicam que o tubarão-azul ocupa um nicho trófico médio-alto, com uma dieta que varia ao longo de sua vida, adaptando-se às condições ambientais e à disponibilidade de presas. Proteger esta espécie e garantir a sustentabilidade das pescarias que a exploram depende de uma compreensão profunda das suas interações tróficas, o que pode orientar políticas de conservação e práticas pesqueiras responsáveis.
+Dentro deste repositório estão páginas, criadas como forma de avaliação da disciplina, relacionadas a diversos temas, principalmente a meu projeto de doutorado pelo Programa de Pós-graduação em Oceanografia Biológica da FURG.
