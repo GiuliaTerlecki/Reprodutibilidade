@@ -5,7 +5,7 @@ format: html
 editor: visual
 ---
 
-<!-- Esse é o único jeito de fazer comentários que não serão vistos pelo programa como código ou texto -->
+<!-- Esse é o único jeito de fazer comentários que não serão vistos pelo programa como código ou texto r-->
 
 A **ecologia trófica** é o estudo das interações alimentares dentro de um ecossistema, focando na transferência de energia e nutrientes entre diferentes níveis tróficos, desde produtores primários até os consumidores de topo. Ela é fundamental para compreender a estrutura e o funcionamento dos ecossistemas, já que as relações tróficas determinam a dinâmica populacional e a estabilidade ecológica. Em termos gerais, a ecologia trófica investiga como a energia é capturada pelos organismos autotróficos e transferida através da rede alimentar, influenciando a sobrevivência, reprodução e crescimento das espécies.
 
