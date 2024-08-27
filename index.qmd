@@ -18,3 +18,8 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 [Métodos de Identificação de Estoques Pesqueiros](Métodos de Identificação de Estoques Pesqueiros.html)
 
 [Análises Elementares e Isotópicas na Identificação de Estoques Pesqueiros](Marcadores Químicos na Identificação de Estoques Pesqueiros.html)
+
+[Vértebras para análises](TestesdeInsercoes.html)
+
+
+
