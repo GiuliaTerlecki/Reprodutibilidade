@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -75,6 +109,26 @@ ul.task-list li input[type="checkbox"] {
 <p>A <strong>ecologia trófica de tubarões</strong> é especialmente relevante devido ao seu papel como predadores de topo nos ecossistemas marinhos. Tubarões como o tubarão-azul (<em>Prionace glauca</em>) e o tubarão-anequim (<em>Isurus oxyrinchus</em>) influenciam significativamente a dinâmica das populações de suas presas, regulando a abundância e o comportamento de outras espécies marinhas. Estudar a ecologia trófica dos tubarões envolve analisar suas dietas, padrões de predação e a competição por recursos ao longo de suas ontogenias. Esses predadores são conhecidos por suas dietas variadas, que podem incluir peixes, cefalópodes e, ocasionalmente, aves marinhas. A compreensão dessas interações tróficas é crucial para prever as respostas dos ecossistemas marinhos às pressões antropogênicas, como a pesca e as mudanças climáticas.</p>
 <p>A <strong>importância da compreensão da ecologia trófica para o manejo de espécies comercialmente exploradas</strong> não pode ser subestimada. Espécies como o tubarão-azul, que é a mais capturada globalmente entre os tubarões, são particularmente vulneráveis à sobrepesca devido à sua baixa fecundidade e maturação tardia. O estudo de sua ecologia trófica fornece insights valiosos sobre seu papel no ecossistema, suas necessidades alimentares e as áreas críticas de habitat. Essas informações são essenciais para desenvolver estratégias de manejo que garantam a sustentabilidade das populações de tubarões, minimizando os impactos sobre o ecossistema marinho e protegendo as cadeias alimentares que dependem deles.</p>
 <p>No <strong>caso específico do tubarão-azul</strong>, a compreensão detalhada de sua ecologia trófica é vital para implementar práticas de manejo eficazes. Como a espécie mais capturada de tubarões, o tubarão-azul enfrenta uma pressão considerável da pesca comercial, especialmente em pescarias de espinhel no Oceano Atlântico. Pesquisas indicam que o tubarão-azul ocupa um nicho trófico médio-alto, com uma dieta que varia ao longo de sua vida, adaptando-se às condições ambientais e à disponibilidade de presas. Proteger esta espécie e garantir a sustentabilidade das pescarias que a exploram depende de uma compreensão profunda das suas interações tróficas, o que pode orientar políticas de conservação e práticas pesqueiras responsáveis.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     speed           dist       
+ Min.   : 4.0   Min.   :  2.00  
+ 1st Qu.:12.0   1st Qu.: 26.00  
+ Median :15.0   Median : 36.00  
+ Mean   :15.4   Mean   : 42.98  
+ 3rd Qu.:19.0   3rd Qu.: 56.00  
+ Max.   :25.0   Max.   :120.00  </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(cars<span class="sc">$</span>speed)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="pagina1_EcologiaTroficaDeTubaroes_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 </main>
 <!-- /main column -->

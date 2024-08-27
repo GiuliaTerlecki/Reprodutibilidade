@@ -16,3 +16,8 @@ A **ecologia trófica de tubarões** é especialmente relevante devido ao seu pa
 A **importância da compreensão da ecologia trófica para o manejo de espécies comercialmente exploradas** não pode ser subestimada. Espécies como o tubarão-azul, que é a mais capturada globalmente entre os tubarões, são particularmente vulneráveis à sobrepesca devido à sua baixa fecundidade e maturação tardia. O estudo de sua ecologia trófica fornece insights valiosos sobre seu papel no ecossistema, suas necessidades alimentares e as áreas críticas de habitat. Essas informações são essenciais para desenvolver estratégias de manejo que garantam a sustentabilidade das populações de tubarões, minimizando os impactos sobre o ecossistema marinho e protegendo as cadeias alimentares que dependem deles.
 
 No **caso específico do tubarão-azul**, a compreensão detalhada de sua ecologia trófica é vital para implementar práticas de manejo eficazes. Como a espécie mais capturada de tubarões, o tubarão-azul enfrenta uma pressão considerável da pesca comercial, especialmente em pescarias de espinhel no Oceano Atlântico. Pesquisas indicam que o tubarão-azul ocupa um nicho trófico médio-alto, com uma dieta que varia ao longo de sua vida, adaptando-se às condições ambientais e à disponibilidade de presas. Proteger esta espécie e garantir a sustentabilidade das pescarias que a exploram depende de uma compreensão profunda das suas interações tróficas, o que pode orientar políticas de conservação e práticas pesqueiras responsáveis.
+
+```{r}
+summary(cars)
+plot(cars$speed)
+```
