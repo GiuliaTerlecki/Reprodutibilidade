@@ -1,45 +1,81 @@
 ---
-title: "Vértebras para análises"
+title: "Vértebras para Análises"
 author: "Giulia Terlecki"
 format: html
 editor: visual
 ---
 
-[![Elefante](elephant.png)](https://www.dfo-mpo.gc.ca/species-especes/images/profiles-profils/~sharks/blue-shark/blue-bleu.jpg) #Link de Imagem
-![](image1.png){.absolute top=200 left=0 width="350" height="300"}
-* unordered list
-    + sub-item 1
-    + sub-item 2
-        - sub-sub-item 1
+![Elefante](https://www.dfo-mpo.gc.ca/species-especes/images/profiles-profils/~sharks/blue-shark/blue-bleu.jpg){.absolute top=200 left=50 width="750" height="300"}
 
-1. ordered list
-2. item 2
-    i) sub-item 1
-         A.  sub-sub-item 1
-         
-         Tabelas simples
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|  12   |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|  1    |    1 |     1   |     1  |
 
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
+
+
+* Estações:
+    + **Primavera**
+        - 22/09 - 20/12
+    + **Verão**
+        - 21/12 - 20/03
+    + **Outono**
+        - 21/03 - 20/06
+    + **Inverno**
+        - 21/06 - 21/09
+
+1. Espécies Estudadas:
+  i) ***Prionace glauca***  
+        A. Machos :30  
+        B. Fêmeas :30   
+        
+  ii) ***Isurus oxyrinchus***   
+        A. Machos: 30  
+        B. Fêmeas: 30  
+        
+2. Locais de Amostragem
+
+       i)Rio Grande do Sul  
+        ii)Namíbia  
+         iii) NE Brasil  
+          iv) Oceano Atlântico - região equatorial   
+           v) Giro Guiné  
+  
+3. Numero total de Amostras ???
+
+                
++---------------+------------------+--------------------+
+| Local         | Coletada         |    Número          |
++===============+==================+====================+
+| RS - BR       | Sim - *P. glauca*| 1600               |
+|               | e *I. oxyhinchus*|                    |
++---------------+------------------+--------------------+
+| NE - BR       | Não              |                    |
+|               |                  |                    |
++---------------+------------------+--------------------+
+| Namíbia       | Sim              | - 10 azul          |
+|               |                  | - x anequim        |
++---------------+------------------+--------------------+
+| Guiné         | Não              |                    |
+|               |                  |                    |
++---------------+------------------+--------------------+
+| Equador -     | 2000             |                    |
+| Atlântico     |                  |                    |
++---------------+------------------+--------------------+
+
+
 
 : Sample grid table.
 
 
-$E = mc^{2}$ para inline
+
+$E = mc^{2}$ <!--para inline-->
 ou
-$$E = mc^{2}$$ para centro da linha
+$$E = mc^{2}$$ <!--para centro da linha-->
+
+`Frase de Efeito`
+
+``Frase de Efeito``
+
+```Frase de Efeito```
+
+````Frase de Efeito````
 
 ::: {.column-margin}
 We know from *the first fundamental theorem of calculus* 
