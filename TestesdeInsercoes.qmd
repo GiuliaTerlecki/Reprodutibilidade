@@ -71,11 +71,6 @@ $$E = mc^{2}$$ <!--para centro da linha-->
 
 `Frase de Efeito`
 
-``Frase de Efeito``
-
-```Frase de Efeito```
-
-````Frase de Efeito````
 
 ::: {.column-margin}
 We know from *the first fundamental theorem of calculus* 
@@ -121,3 +116,5 @@ Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tama
 
 Para layout com percentuais:
 ::: {layout="[[40,-20,40], [100]]"}
+
+$body-bg 
