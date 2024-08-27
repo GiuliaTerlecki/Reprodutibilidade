@@ -1,0 +1,85 @@
+---
+title: "Vértebras para análises"
+author: "Giulia Terlecki"
+format: html
+editor: visual
+---
+
+[![Elefante](elephant.png)](https://quarto.org) #Link de Imagem
+![](image1.png){.absolute top=200 left=0 width="350" height="300"}
+* unordered list
+    + sub-item 1
+    + sub-item 2
+        - sub-sub-item 1
+
+1. ordered list
+2. item 2
+    i) sub-item 1
+         A.  sub-sub-item 1
+         
+         Tabelas simples
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|  12   |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|  1    |    1 |     1   |     1  |
+
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+| Oranges       | $2.10         | - cures scurvy     |
+|               |               | - tasty            |
++---------------+---------------+--------------------+
+
+: Sample grid table.
+
+
+$E = mc^{2}$ para inline
+ou
+$$E = mc^{2}$$ para centro da linha
+
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* 
+:::
+
+{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+Veja em mermaid.js.org
+
+
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+> Bloco destacado
+
+| Line Block
+|   Spaces and newlines
+|   are preserved
+
+
+::: {layout-ncol=2}
+asdasd  
+
+asdasd
+:::
+
+
+Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.
+::: {layout="[[1,1], [1]]"}
+![Surus](surus.png)
+![Surus1](surus1.png)
+![Surus2](surus2.png)
+:::
+
+Para layout com percentuais:
+::: {layout="[[40,-20,40], [100]]"}
