@@ -13,7 +13,6 @@ Este é um repositório produzido na disciplina "Reprodutibilidade de Resultados
 
 Dentro deste repositório estão páginas, criadas como forma de avaliação da disciplina, relacionadas a diversos temas, principalmente a meu projeto de doutorado pelo Programa de Pós-graduação em Oceanografia Biológica da FURG.
 
-
 <a href="pagina1_EcologiaTroficaDeTubaroes.html"style= "color: white;">Ecologia Trofica De Tubaroes</a>
 
 <a href="Métodos de Identificação de Estoques Pesqueiros.html"style= "color: white;">Métodos de Identificação de Estoques Pesqueiros</a>
@@ -32,16 +31,16 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
             background-attachment: fixed;
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             color: white;
         }
 
         .content {
             position: relative;
-            width: 60%;
+            width: 100%;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+            background-color: rgba(0, 0, 0, 0.0); /* Fundo semitransparente */
             border-radius: 10px;
         }
     </style>
