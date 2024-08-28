@@ -49,9 +49,9 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 ## Próximas tarefas
 
-Tarefa 1 - Pagina HTML
-Tarefa 2 - Apresentação Revalsjs- SEMANA QUE VEM
-Tarefa 3 - Criar artigo PDF (pacote Rticles)
+Tarefa 1 - Pagina HTML   
+Tarefa 2 - Apresentação Revalsjs- SEMANA QUE VEM  
+Tarefa 3 - Criar artigo PDF (pacote Rticles)  
 
 Shiny - webapp
 
