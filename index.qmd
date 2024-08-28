@@ -2,7 +2,7 @@
 title: "Reprodutibilidade Científica com o R 2024"
 format: html
 editor: visual
-theme: pandoc
+theme: quartz
 ---
 
 ## Giulia Terlecki
