@@ -2,6 +2,7 @@
 title: "Reprodutibilidade Científica com o R 2024"
 format: html
 editor: visual
+theme: pandoc
 ---
 
 ## Giulia Terlecki
@@ -45,6 +46,8 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
         }
     </style>
 ```
+
+## Próximas tarefas
 
 Tarefa 1 - Pagina HTML
 Tarefa 2 - Apresentação Revalsjs- SEMANA QUE VEM
