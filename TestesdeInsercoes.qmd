@@ -117,4 +117,3 @@ Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tama
 Para layout com percentuais:
 ::: {layout="[[40,-20,40], [100]]"}
 
-$body-bg 
