@@ -3,6 +3,8 @@ title: "Ecologia Trófica de Tubarões"
 author: "Giulia Terlecki"
 format: html
 editor: visual
+theme: materia
+fontcolor: tan
 ---
 
 <!-- Esse é o único jeito de fazer comentários que não serão vistos pelo programa como código ou texto r-->

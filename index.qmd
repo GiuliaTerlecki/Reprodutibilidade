@@ -21,10 +21,17 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 <a href="TestesdeInsercoes.html"style= "color: white;">Vértebras para Análises</a>
 
+body {
+    background-image: url('https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/240_F_741189380_qgro4rWQ364Hg8tj6KKbY8qslf9VGuoU.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 ```{=html}
 <style>
         body {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5a5yV00isAjA9ssyqhoYWgleewVZbxjd5Iw&s');
+            background-image: url('https://stock.adobe.com/br/search?k=shark+wallpaper&asset_id=741189380');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
