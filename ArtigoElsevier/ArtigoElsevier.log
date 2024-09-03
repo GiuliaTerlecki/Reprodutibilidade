@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  3 SEP 2024 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  3 SEP 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,8 +523,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164   furcal length on δ
-                           13C and δ15N isotopic compositions. Significant 
+l.167   species. Seasonal differences for δ
+                                            15N in hot and cold seasons for 
 Here is how much of TeX's memory you used:
  12119 strings out of 475539
  188692 string characters out of 5775725
