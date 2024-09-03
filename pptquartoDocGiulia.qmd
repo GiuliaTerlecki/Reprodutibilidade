@@ -26,7 +26,7 @@ Programa de Pós-Graduação em Oceanografia Biológica – PPGOB
 
 ## Desafios na Conservação
 
--   **Declínio Populacional**: Redução drástica na abundância de tubarões nas últimas décadas (Dulvy et al. 2021).
+-   **Declínio Populacional**: Redução drástica da abundância de tubarões nas últimas décadas (Dulvy et al. 2021).
 -   **Manejo e Conservação**: Necessidade de informações sobre uso de habitat e status das espécies para manejo eficaz (Pitkitch et al. 2004).
 
 ------------------------------------------------------------------------
