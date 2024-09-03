@@ -5,7 +5,15 @@ format:   revealjs
 css: styles.css
 editor: visual
 ---
-
+ <style>
+        h1, h2, h3, h4, h5, h6 {
+          color: white !important;
+        }
+        p, li, blockquote {
+          color: white !important;
+        }
+        </style>
+        
 **Ecologia Alimentar e Uso de Habitat durante a Ontogenia dos Tubarões Azul (***Prionace glauca***) e Mako (***Isurus oxyrinchus***) no Oceano Atlântico Sul**
 
 Giulia Terlecki
