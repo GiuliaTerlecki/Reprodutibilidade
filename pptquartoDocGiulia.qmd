@@ -9,55 +9,52 @@ editor: visual
 
 Giulia Terlecki
 
-Orientador: Prof. Dr. Luis Gustavo Cardoso  
+Orientador: Prof. Dr. Luis Gustavo Cardoso\
 Coorientadora: Profa. Dra. Silvina Botta
 
-Universidade Federal do Rio Grande - FURG  
+Universidade Federal do Rio Grande - FURG\
 Programa de Pós-Graduação em Oceanografia Biológica – PPGOB
-
 
 # Introdução
 
 ## Elasmobrânquios: Predadores de Topo
 
-- **Diversidade e Distribuição**: Altamente diversificados e amplamente distribuídos nos oceanos (Compagno 2005).
-- **Vulnerabilidade**: Maturidade tardia, baixa fecundidade e crescimento lento os tornam sensíveis à pesca intensiva.
-- **Importância Ecológica**: Estruturam teias tróficas marinhas e exercem controle 'top-down' (Estes et al. 2011).
-
+-   **Diversidade e Distribuição**: Altamente diversificados e amplamente distribuídos nos oceanos (Compagno 2005).
+-   **Vulnerabilidade**: Maturidade tardia, baixa fecundidade e crescimento lento, tornando-os sensíveis à pesca intensiva.
+-   **Importância Ecológica**: Estruturam teias tróficas marinhas e exercem controle 'top-down' (Estes et al. 2011).
 
 ## Desafios na Conservação
 
-- **Declínio Populacional**: Redução drástica na abundância de tubarões nas últimas décadas (Dulvy et al. 2021).
-- **Manejo e Conservação**: Necessidade de informações sobre uso de habitat e status das espécies para manejo eficaz (Pitkitch et al. 2004).
+-   **Declínio Populacional**: Redução drástica na abundância de tubarões nas últimas décadas (Dulvy et al. 2021).
+-   **Manejo e Conservação**: Necessidade de informações sobre uso de habitat e status das espécies para manejo eficaz (Pitkitch et al. 2004).
 
----
+------------------------------------------------------------------------
 
 ## Uso de Habitat
 
-- **Distribuição Espacial**: Tubarões-azul habitam águas mais profundas durante o dia e retornam à superfície à noite.
-- **Diferenças Tróficas**: Tubarão-azul consome principalmente cefalópodes, enquanto o tubarão-anequim se alimenta de teleósteos (Vaske-Júnior & Rincón-Filho 1998).
+-   **Distribuição Espacial**: Tubarões-azul habitam águas mais profundas durante o dia e retornam à superfície à noite.
+-   **Diferenças Tróficas**: Tubarão-azul consome principalmente cefalópodes, enquanto o tubarão-anequim se alimenta de teleósteos (Vaske-Júnior & Rincón-Filho 1998).
 
 ## Movimentação e Migração
 
-- **Migração Transatlântica**: Tubarão-azul apresenta movimentos migratórios significativos ao longo da ontogenia.
-- **Segregação Sexual**: Diferenciação no uso de habitat entre machos e fêmeas, relacionada à reprodução e disponibilidade de presas.
+-   **Migração Transatlântica**: Tubarão-azul apresenta movimentos migratórios significativos ao longo da ontogenia.
+-   **Segregação Sexual**: Diferenciação no uso de habitat entre machos e fêmeas, relacionada à reprodução e disponibilidade de presas.
 
----
+------------------------------------------------------------------------
 
 ## Sobreposição de Nicho
 
-- **Variação Ontogenética**: O tubarão-azul mostra maior variação ontogenética em comparação com o tubarão-anequim.
-- **Especialização Individual**: Indivíduos apresentam estratégias diferenciadas de uso de recursos para minimizar a competição intraespecífica.
+-   **Variação Ontogenética**: O tubarão-azul mostra maior variação ontogenética em comparação com o tubarão-anequim.
+-   **Especialização Individual**: Indivíduos apresentam estratégias diferenciadas de uso de recursos para minimizar a competição intraespecífica.
 
 ## Implicações para Conservação
 
-- **Gestão de Estoques Pesqueiros**: Necessidade de informações detalhadas sobre uso de habitat para efetiva gestão e conservação das espécies.
-- **Efeitos da Pesca**: A pesca intensiva tem impactos críticos sobre a estrutura populacional e a distribuição dos tubarões no OAS.
+-   **Gestão de Estoques Pesqueiros**: Necessidade de informações detalhadas sobre uso de habitat para efetiva gestão e conservação das espécies.
+-   **Efeitos da Pesca**: A pesca intensiva tem impactos críticos sobre a estrutura populacional e a distribuição dos tubarões no OAS.
 
----
+------------------------------------------------------------------------
 
-**A compreensão** da variabilidade intra e interespecífica no uso de habitat é crucial para entender a ecologia e migração dos tubarões.
-**Uma das maiores necessidades atuais da gestão pesqueira** Já que esse tipo de pesquisa é necessária para aprimorar a gestão de estoques pesqueiros e conservação de tubarões no Atlântico Sul e em outros habitats.
+**A compreensão** da variabilidade intra e interespecífica no uso de habitat é crucial para entender a ecologia e migração dos tubarões. **Uma das maiores necessidades atuais da gestão pesqueira** Já que esse tipo de pesquisa é necessária para aprimorar a gestão de estoques pesqueiros e conservação de tubarões no Atlântico Sul e em outros habitats.
 
 # Objetivos
 
@@ -67,37 +64,36 @@ Avaliar a variabilidade intra e interespecífica no uso de habitat dos tubarões
 
 ## Objetivos Específicos
 
-1. Obter séries temporais de isótopos estáveis de carbono (δ13C) e nitrogênio (δ15N) das vértebras dos tubarões.
-2. Avaliar a sobreposição de nicho trófico entre os tubarões azul e anequim.
-3. Analisar a especialização individual no uso de recursos e habitat.
-4. Examinar a movimentação do tubarão-azul usando perfis isotópicos e microquímicos.
+1.  Obter séries temporais de isótopos estáveis de carbono (δ13C) e nitrogênio (δ15N) das vértebras dos tubarões.
+2.  Avaliar a sobreposição de nicho trófico entre os tubarões azul e anequim.
+3.  Analisar a especialização individual no uso de recursos e habitat.
+4.  Examinar a movimentação do tubarão-azul usando perfis isotópicos e microquímicos.
 
 # Metodologia
 
 ## Áreas de Estudo
 
-- **Sudoeste do Oceano Atlântico Sul (OAS)**: Limitado pela Convergência Subtropical (30–36°S).
-- **Influências Oceanográficas**: Corrente do Brasil e Corrente das Malvinas criam ressurgências que sustentam intensa atividade biológica (Strub et al. 2015).
+-   **Sudoeste do Oceano Atlântico Sul (OAS)**: Limitado pela Convergência Subtropical (30–36°S).
+-   **Influências Oceanográficas**: Corrente do Brasil e Corrente das Malvinas criam ressurgências que sustentam intensa atividade biológica (Strub et al. 2015).
 
 ## Coleta de Amostras
 
-- Vértebras coletadas durante desembarques pesqueiros da frota de espinhel de superfície.
-- **Amostragem no OAS**: 1933 vértebras coletadas entre 2018 e 2023, incluindo tubarões-azul e anequim. 60 amostras de cada espécie serão utilizadas nas análises. as aamostras selecionadas foram as que tinham mais de 2300mm de comprimento Furcal. 
+-   Vértebras coletadas durante desembarques pesqueiros da frota de espinhel de superfície.
+-   **Amostragem no OAS**: 1933 vértebras coletadas entre 2018 e 2023, incluindo tubarões-azul e anequim. 60 amostras de cada espécie serão utilizadas nas análises. as aamostras selecionadas foram as que tinham mais de 2300mm de comprimento Furcal.
 
 Formula de transformação das medidas interdorsais em comprimento furcal para o Tubarçao-azul:
 
----
+------------------------------------------------------------------------
 
 ## Análise Isotópica
 
--***δ*<sup>13</sup>C** e ***δ*<sup>15</sup>N**: Utilização de Espectrometria de Massas de Razão Isotópica (IRMS).  
+\-***δ***<sup>13</sup>C e ***δ***<sup>15</sup>N: Utilização de Espectrometria de Massas de Razão Isotópica (IRMS).\
 - **Processamento**: Subamostras obtidas com microamostrador Micromill e analisadas no IRMS para determinar a posição trófica e uso de habitat.
 
 ## Análise Elementar
 
-- **Composição Elementar**: Ablação a laser conectada a ICP-MS para quantificação de elementos como Sr, Ba, e Ca.
-- **Aplicações**: Determinação da conectividade e migração dos tubarões com base nas assinaturas elementares das vértebras.
-
+-   **Composição Elementar**: Ablação a laser conectada a ICP-MS para quantificação de elementos como Sr, Ba, e Ca.
+-   **Aplicações**: Determinação da conectividade e migração dos tubarões com base nas assinaturas elementares das vértebras.
 
 # Agradecimentos
 
