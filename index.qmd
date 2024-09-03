@@ -23,7 +23,7 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação projeto de doutorado</a>
 
-<a href="ArtigoElsevier.pdf"style= "color: white;">Artigo Lampris</a>
+<a href="ArtigoElsevier.Rmd"style= "color: white;">Artigo Lampris</a>
 
 !{imagembonita}(caminho.css)
 
