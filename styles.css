@@ -1,14 +1,6 @@
 .reveal {
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
-}
-
-.reveal .slides {
-  color: White; /* Altera a cor do texto */
-}
-
-.reveal {
-  background-image: url('https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/tubarao%20carcharhinus.jpg');
-  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-image: url('tubarao carcharhinus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
