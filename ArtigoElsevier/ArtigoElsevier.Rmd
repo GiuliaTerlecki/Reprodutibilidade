@@ -1,37 +1,40 @@
 ---
-title: ESeasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean
-author: Giulia Terlecki
-  - name: Giulia Terlecki
-    email: guliaterlecki@gmail.com
-    affiliation: LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG
+title: "Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean"
+author:
+  - name: "Giulia Terlecki"
+    email: "guliaterlecki@gmail.com"
+    affiliation: "LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
     correspondingauthor: true
     footnote: 1
-  - name: Silvina Botta
-    email: bob@example.com
-    affiliation: ECOMEGA - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG
-  - name: Luis Gustavo Cardoso
-    email: cat@example.com
-    affiliation: Another University
+  - name: "Silvina Botta"
+    email: "bob@example.com"
+    affiliation: "ECOMEGA - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
+  - name: "Luis Gustavo Cardoso"
+    email: "cat@example.com"
+    affiliation: "Another University"
     footnote: 2
-address:Avenida Itália Km. 8, Rio Grande, Brazil
-  - code: Some Institute of Technology
-    organization: Universidade Federal do Rio Grande - FURG
-    addressline: 1 main street
-    city: Gotham
-    state: State
-    postcode: 123456
-    country: Brazil
-  - code: Universidade Federal do Rio Grande - FURG
-    organization: Instituto de Oceanografia
-    addressline: A street 29
-    postcode: 2054 NX
-    city: Rio Grande,
-    country: Brazil
+
+address:
+  - code: "Some Institute of Technology"
+    organization: "Universidade Federal do Rio Grande - FURG"
+    addressline: "1 main street"
+    city: "Gotham"
+    state: "State"
+    postcode: "123456"
+    country: "Brazil"
+  - code: "Universidade Federal do Rio Grande - FURG"
+    organization: "Instituto de Oceanografia"
+    addressline: "A street 29"
+    city: "Rio Grande"
+    postcode: "2054 NX"
+    country: "Brazil"
+
 footnote:
   - code: 1
-    text: "bLaboratório de Recursos Pesqueiro Demersais, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
+    text: "Laboratório de Recursos Pesqueiro Demersais, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
   - code: 2
     text: "Another author footnote."
+
 abstract: |
   Opahs (Lampsis spp.) are large deep-water epi-mesopelagic predator fishes captured worldwide as bycatch of longline fisheries targeting large pelagic fishes. Despite the growing culinary interest leading to increasing commercial interest, several basic biological information about the species is still poorly known. This study uses stable isotope and stomach content analysis to access the diet and seasonality on the isotopic niche of the Big-eye Opah, Lampris megalopsis, and the Southern Spotted Opah Lampris australensis in the Southwest Atlantic Ocean (SWAO). Generalized Linear Models were applied to investigate the influence of the species, sex, seasons, and furcal length on δ13C and δ15N isotopic compositions. 
   Significant differences were observed only for Autumn and for L. megalopsis. The isotopic niches resulted in overlapped 40% ellipses between the species. Seasonal differences for δ15N in hot and cold seasons for both species related to the dynamic of the Brazilian and the Malvinas (Falkland) currents and the shift on the baseline source of nitrogen. Differences in δ13C, with enriched values in the warmer season, were observed only for L. megalopsis and suggested movements to areas with depleted 15C values. Diet for both species was composed predominantly by Cephalopods and Teleost’s, followed by Crustacea, in smaller quantities. An alarming high plastic frequency of occurrence was observed in 40% of the stomachs of L. megalopsis and 31% of L. australensis. This study advances in understanding the Opah fishes feeding ecology in SWAO and provides information on community dynamics and the functional role that these species play in the structure of all marine ecosystems where they occur. Given the growing global commercial importance of Lampris spp., it is also increasingly important to know their inter and intraspecific relationships and the anthropological impacts they are suffering.
@@ -54,6 +57,9 @@ output:
   rticles::elsevier_article:
     keep_tex: true
     citation_package: natbib
+    output:
+  pdf_document:
+    latex_engine: lualatex
 ---
 
 Please make sure that your manuscript follows the guidelines in the 
