@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  3 SEP 2024 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  3 SEP 2024 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,25 +512,21 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 119.
-\@outlinefile=\write5
-\openout5 = `ArtigoElsevier.out'.
-
-
-! LaTeX Error: Unicode character δ (U+03B4)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+(./ArtigoElsevier.out) (./ArtigoElsevier.out
+! I can't write on file `ArtigoElsevier.pdf'.
+(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
+Please type another file name for output
+! Emergency stop.
+\Hy@OutlineName ...utline goto name{#2}count#3{#4}
                                                   
-l.167   furcal length on δ
-                           13C and δ15N isotopic compositions. Significant 
+l.1 ...0y\000\040\000s\000t\000y\000l\000e\000s}{}
+                                                  % 1 
 Here is how much of TeX's memory you used:
- 12119 strings out of 475539
- 188692 string characters out of 5775725
- 1926960 words of memory out of 5000000
- 34616 multiletter control sequences out of 15000+600000
- 564817 words of font info for 39 fonts, out of 8000000 for 9000
+ 12126 strings out of 475539
+ 188439 string characters out of 5775725
+ 1925960 words of memory out of 5000000
+ 34622 multiletter control sequences out of 15000+600000
+ 561822 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,1n,79p,413b,384s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
