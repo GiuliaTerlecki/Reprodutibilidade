@@ -12,3 +12,24 @@
 .reveal p, .reveal li, .reveal blockquote {
     color: white !important; /* Cor do texto dos slides */
 }
+.reveal h1 {
+    font-size: 2em; /* Ajuste este valor conforme necessário */
+    line-height: 1.2; /* Ajuste o espaçamento entre linhas, se necessário */
+}
+.reveal h1 {
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+.reveal h2 {
+    font-size: 1.75em;
+}
+
+.reveal h3 {
+    font-size: 1.5em;
+}
+
+/* Ajustes de cor ou outros estilos */
+.reveal h1, .reveal h2, .reveal h3 {
+    color: white; /* Certifique-se de que a cor está adequada ao fundo */
+}

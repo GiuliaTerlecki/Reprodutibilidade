@@ -1,9 +1,7 @@
 ---
 title: "ECOLOGIA ALIMENTAR E USO DE HABITAT DURANTE A ONTOGENIA DOS TUBARÕES AZUL (***Prionace glauca***) E MAKO (***Isurus oxyrinchus***) NO OCEANO ATLÂNTICO SUL"
 author: "Giulia Terlecki"
-format:   
-  revealjs:
-    smaller: true
+format: revealjs
 css: styles.css
 
 ---
