@@ -3,8 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo com 50% de transparência */
-}
+   }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
     color: white; /* Cor dos títulos */
