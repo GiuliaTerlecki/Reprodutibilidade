@@ -1,0 +1,128 @@
+---
+title: Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean
+author:
+- name: Giulia Terlecki
+  email: giuliaterlecki@gmail.com
+  affiliation: "LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
+  correspondingauthor: true
+  footnote: a
+- name: Silvina Botta
+  email: silvinabotta@gmail.com
+  affiliation: "ECOMEGA - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
+  footnote: b
+- name: Luis Gustavo Cardoso
+  email: luisgustavocardoso@gmail.com
+  affiliation: "LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
+  footnote: a
+address:
+- code: LaDiPP
+  organization: "Instituto de Oceanografia, Universidade Federal do Rio Grande - FURG"
+  addressline: "Av. Itália S/N, Universidade Federal do Rio Grande - FURG - Instituto de Oceanografia"
+  city: Rio Grande
+  postcode: '96205000'
+  country: Brazil
+- code: ECOMEGA
+  organization: "Instituto de Oceanografia, Universidade Federal do Rio Grande - FURG"
+  addressline: "Av. Itália S/N, Universidade Federal do Rio Grande - FURG - Instituto de Oceanografia"
+  city: Rio Grande
+  state: Rio Grande do Sul
+  postcode: '96205000'
+  country: Brazil
+output: pdf_document
+footnote:
+- code: a
+  text: "LaDiPP - Laboratório de Recursos Pesqueiro Demersais, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
+- code: b
+  text: "ECOMEGA - Laboratório de Ecologia da Megafauna Marinha, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
+---
+
+abstract: |
+ Abstract
+
+Opahs (Lampsis spp.) are large deep-water epi-mesopelagic predator fishes captured worldwide as bycatch of longline fisheries targeting large pelagic fishes. Despite the growing culinary interest leading to increasing commercial interest, several basic biological information about the species is still poorly known. This study uses stable isotope and stomach content analysis to access the diet and seasonality on the isotopic niche of the Big-eye Opah, Lampris megalopsis, and the Southern Spotted Opah Lampris australensis in the Southwest Atlantic Ocean (SWAO). Generalized Linear Models were applied to investigate the influence of the species, sex, seasons, and furcal length on δ13C and δ15N isotopic compositions. Significant differences were observed only for Autumn and for L. megalopsis. The isotopic niches resulted in overlapped 40% ellipses between the species. Seasonal differences for δ15N in hot and cold seasons for both species related to the dynamic of the Brazilian and the Malvinas (Falkland) currents and the shift on the baseline source of nitrogen. Differences in δ13C, with enriched values in the warmer season, were observed only for L. megalopsis and suggested movements to areas with depleted 15C values. Diet for both species was composed predominantly by Cephalopods and Teleost’s, followed by Crustacea, in smaller quantities. An alarming high plastic frequency of occurrence was observed in 40% of the stomachs of L. megalopsis and 31% of L. australensis. This study advances in understanding the Opah fishes feeding ecology in SWAO and provides information on community dynamics and the functional role that these species play in the structure of all marine ecosystems where they occur. Given the growing global commercial importance of Lampris spp., it is also increasingly important to know their inter and intraspecific relationships and the anthropological impacts they are suffering.
+
+
+
+  It consists of two paragraphs.
+keywords: 
+  - keyword1
+  - keyword2
+journal: "An awesome journal"
+date: "`r Sys.Date()`"
+linenumbers: false
+numbersections: true
+bibliography: mybibfile.bib
+biblio-style: elsarticle-harv # author year style for natbib - use 'elsarticle-num' or 'elsarticle-num-names' for numbered scheme
+classoption: preprint, 3p, authoryear # remove authoryear is not using `elsarticle-harv`
+# Use a CSL with `citation_package = "default"`
+# csl: https://www.zotero.org/styles/elsevier-harvard
+output: 
+  rticles::elsevier_article:
+    keep_tex: true
+    citation_package: natbib
+---
+
+Please make sure that your manuscript follows the guidelines in the 
+Guide for Authors of the relevant journal. It is not necessary to 
+typeset your manuscript in exactly the same way as an article, 
+unless you are submitting to a camera-ready copy (CRC) journal.
+
+For detailed instructions regarding the elsevier article class, see   <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
+
+# Bibliography styles
+
+Here are two sample references: @Feynman1963118 [@Dirac1953888].
+
+By default, natbib will be used with the `authoryear` style, set in `classoption` variable in YAML and with `elsearticle-harv.bst` which is among provided style by `elsarticle` documentclass. Other available style are `elsarticle-num.bst` and `elsarticle-num-names.bst` — the first one can be used for the numbered scheme, second one for numbered with new options of natbib.sty. 
+
+You can sets extra options with `natbiboptions` variable in YAML header. Example 
+```yaml
+natbiboptions: longnamesfirst,angle,semicolon
+```
+
+There are various more specific bibliography styles available at
+<https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files>. 
+To use one of these, add it in the header using, for example, `biblio-style: model1-num-names`.
+
+## Using CSL 
+
+If `citation_package` is set to `default` in `elsevier_article()`, then pandoc is used for citations instead of `natbib`. In this case, the `csl` option is used to format the references. Alternative `csl` files are available from <https://www.zotero.org/styles?q=elsevier>. These can be downloaded
+and stored locally, or the url can be used as in the example header.
+
+# Equations
+
+Here is an equation:
+$$ 
+  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
+  \left(\frac{x}{\beta}\right)^{\alpha-1}
+  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
+  \alpha,\beta,x > 0 .
+$$
+
+Here is another:
+\begin{align}
+  a^2+b^2=c^2.
+\end{align}
+
+Inline equations: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
+
+# Figures and tables
+
+Figure \ref{fig2} is generated using an R chunk.
+
+```{r fig2, fig.width = 5, fig.height = 5, fig.align='center', out.width="50%", fig.cap = "\\label{fig2}A meaningless scatterplot.", echo = FALSE}
+plot(runif(25), runif(25))
+```
+
+# Tables coming from R
+
+Tables can also be generated using R chunks, as shown in Table \ref{tab1} for example.
+
+```{r tab1, echo = TRUE}
+knitr::kable(head(mtcars)[,1:4], 
+    caption = "\\label{tab1}Caption centered above table"
+)
+```
+
+# References {-}
+
