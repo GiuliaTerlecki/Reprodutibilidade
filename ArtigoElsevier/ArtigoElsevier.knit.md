@@ -102,7 +102,7 @@ rmarkdown::render("ArtigoElsevier.Rmd", output_format = "pdf_document")
 
 
 journal: "Marine Biology"
-date: "`r Sys.Date()`"
+date: "2024-09-11"
 linenumbers: false
 numbersections: true
 bibliography: mybibfile.bib
@@ -167,19 +167,38 @@ Inline equations: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
 
 Figure \ref{fig2} is generated using an R chunk.
 
-```{r fig2, fig.width = 5, fig.height = 5, fig.align='center', out.width="50%", fig.cap = "\\label{fig2}A meaningless scatterplot.", echo = FALSE}
-plot(runif(25), runif(25))
-```
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{ArtigoElsevier_files/figure-latex/fig2-1} 
+
+}
+
+\caption{\label{fig2}A meaningless scatterplot.}\label{fig:fig2}
+\end{figure}
 
 # Tables coming from R
 
 Tables can also be generated using R chunks, as shown in Table \ref{tab1} for example.
 
-```{r tab1, echo = TRUE}
+
+``` r
 knitr::kable(head(mtcars)[,1:4], 
     caption = "\\label{tab1}Caption centered above table"
 )
 ```
+
+
+
+Table: \label{tab1}Caption centered above table
+
+|                  |  mpg| cyl| disp|  hp|
+|:-----------------|----:|---:|----:|---:|
+|Mazda RX4         | 21.0|   6|  160| 110|
+|Mazda RX4 Wag     | 21.0|   6|  160| 110|
+|Datsun 710        | 22.8|   4|  108|  93|
+|Hornet 4 Drive    | 21.4|   6|  258| 110|
+|Hornet Sportabout | 18.7|   8|  360| 175|
+|Valiant           | 18.1|   6|  225| 105|
 
 # References {-}
 
