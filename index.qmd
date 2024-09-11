@@ -7,7 +7,9 @@ theme: quartz
 
 ## Giulia Terlecki
 
-## Repositório da disciplina de Reprodutibilidade Científica com o R do PPG em Ambientometria Furg 2024
+
+
+## Repositório da disciplina "Reprodutibilidade Científica com o R" do PPG em Ambientometria (Furg 2024)
 
 Este é um repositório produzido na disciplina "Reprodutibilidade de Resultados Cientificos com o R" - Programa de Pós-graduação em Ambientometria da Universidade Federal de Rio Grande - FURG - que propõe a divulgação de métodos e resultados científicos em páginas online de acesso público.
 
@@ -34,7 +36,6 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 [VISUALIZAR - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/ArtigoElsevier/ArtigoElsevier.pdf)
 
 [DOWNLOAD - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/raw/main/ArtigoElsevier/ArtigoElsevier.pdf)
-
 
 
 <style>
