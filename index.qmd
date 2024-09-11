@@ -5,6 +5,15 @@ editor: visual
 theme: quartz
 ---
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/icone.ico" type="image/x-icon">
+</head>
+<body>
+  
 ## Giulia Terlecki
 
 
@@ -52,7 +61,9 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
     color: white;
   }
 </style>
-
+<!-- Conteúdo do site -->
+</body>
+</html>
 <head>
   <link rel="icon" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon">
 </head>
