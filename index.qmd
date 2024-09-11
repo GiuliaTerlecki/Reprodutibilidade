@@ -39,6 +39,7 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 #mudando alguma outra coisa para teste 1
 
+
 <style>
   body {
     background-image: url('https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/fundotuba.png');
@@ -51,6 +52,7 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
     color: white;
   }
 </style>
+
 <head>
   <link rel="icon" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon">
 </head>
