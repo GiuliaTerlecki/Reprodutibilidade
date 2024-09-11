@@ -13,17 +13,27 @@ Este é um repositório produzido na disciplina "Reprodutibilidade de Resultados
 
 Dentro deste repositório estão páginas, criadas como forma de avaliação da disciplina, relacionadas a diversos temas, principalmente a meu projeto de doutorado pelo Programa de Pós-graduação em Oceanografia Biológica da FURG.
 
+## Principais Tópicos Relacionados à Pesquisa
+
 <a href="pagina1_EcologiaTroficaDeTubaroes.html"style= "color: white;">Ecologia Trofica De Tubaroes</a>
 
 <a href="Métodos de Identificação de Estoques Pesqueiros.html"style= "color: white;">Métodos de Identificação de Estoques Pesqueiros</a>
 
 <a href="Marcadores Químicos na Identificação de Estoques Pesqueiros.html"style= "color: white;">Análises Elementares e Isotópicas na Identificação de Estoques Pesqueiros</a>
 
+## Seleção de Materiais Biológicos a Serem Utilizados nas Análises
+
 <a href="TestesdeInsercoes.html"style= "color: white;">Vértebras para Análises</a>
 
-<a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação projeto de doutorado</a>
+## Apresentação Simplificada do Projeto de Doutorado
 
-<a href="ArtigoElsevier.pdf"style= "color: white;">Artigo Lampris</a>
+<a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação Projeto de Doutorado Giulia</a>
+
+## Artigo Teste formatado com RMarkdown modelo Elsevier
+
+[Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](ArtigoElsevier.pdf)
+
+
 
 
 
@@ -52,7 +62,6 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
     </style>
 ```
 
-# Um artigo em preparação relativo ao mestrado, com análises iniciais de uso de habitat de duas espécies do gênero *Lampris*
-[Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](ArtigoElsevier.pdf)
+
 
 
