@@ -29,7 +29,7 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação Projeto de Doutorado Giulia</a>
 
-## Artigo Teste formatado com RMarkdown modelo Elsevier
+## Artigo Teste formatado com RMarkdown no modelo Elsevier
 
 [Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](ArtigoElsevier.pdf)
 
