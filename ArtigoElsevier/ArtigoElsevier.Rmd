@@ -5,35 +5,35 @@ author:
     email: "giuliaterlecki@gmail.com"
     affiliation: "LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
     correspondingauthor: true
-    footnote: 1
+    footnote: a
   - name: "Silvina Botta"
     email: "silvinabotta@gmail.com"
     affiliation: "ECOMEGA - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
-    footnote: 2
+    footnote: b
   - name: "Luis Gustavo Cardoso"
     email: "luisgustavocardoso@gmail.com"
     affiliation: "LaDiPP - Instituto de Oceanografia - Universidade Federal do Rio Grande - FURG"
-    footnote: 1
+    footnote: a
 
 address:
   - code: "LaDiPP"
     organization: "Instituto de Oceanografia, Universidade Federal do Rio Grande - FURG"
-    addressline: "Av. Itália S/N, Instituto de Oceanografia"
+    addressline: "Av. Itália S/N Universidade Federal do Rio Grande - FURG - Instituto de Oceanografia"
     city: "Rio Grande"
     postcode: "96205000"
     country: "Brazil"
   - code: "ECOMEGA"
     organization: "Instituto de Oceanografia, Universidade Federal do Rio Grande - FURG"
-    addressline: "1 main street"
+    addressline: "Av. Itália S/N Universidade Federal do Rio Grande - FURG - Instituto de Oceanografia"
     city: "Rio Grande"
     state: "Rio Grande do Sul"
     postcode: "96205000"
     country: "Brazil"
 
 footnote:
-  - code: 1
+  - code: a
     text: "LaDiPP - Laboratório de Recursos Pesqueiro Demersais, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
-  - code: 2
+  - code: b
     text: "ECOMEGA - Laboratório de Ecologia da Megafauna Marinha, Instituto de Oceanografia, Universidade Federal do Rio Grande – FURG. Av Itália, Km 8, CEP: 96203-000, Rio Grande – RS, Brazil."
 ---
 
