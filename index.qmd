@@ -23,9 +23,9 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação projeto de doutorado</a>
 
-<a href="ArtigoElsevier.Rmd"style= "color: white;">Artigo Lampris</a>
+<a href="ArtigoElsevier.pdf"style= "color: white;">Artigo Lampris</a>
 
-!{imagembonita}(caminho.css)
+
 
 ```{=html}
 <style>
@@ -52,11 +52,7 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
     </style>
 ```
 
-## Próximas tarefas
+# Um artigo em preparação relativo ao mestrado, com análises iniciais de uso de habitat de duas espécies do gênero *Lampris*
+[Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](ArtigoElsevier.pdf)
 
-Tarefa 1 - Pagina HTML   
-Tarefa 2 - Apresentação Revalsjs- SEMANA QUE VEM  
-Tarefa 3 - Criar artigo PDF (pacote Rticles)  
-
-Shiny - webapp
 
