@@ -3,6 +3,7 @@ title: "Análises Elementares e Isotópicas na Identificação de Estoques Pesqu
 author: "Giulia Terlecki"
 format: html
 editor: visual
+theme: solar
 ---
 
 As **análises elementares e isotópicas** têm se mostrado ferramentas poderosas na identificação e caracterização de estoques pesqueiros. Estas técnicas permitem a determinação da composição química dos tecidos biológicos, oferecendo uma visão detalhada sobre a origem geográfica, o ambiente de vida e as interações tróficas dos organismos marinhos. A composição elementar pode variar dependendo das condições ambientais, como a salinidade, a temperatura e a disponibilidade de nutrientes, enquanto as assinaturas isotópicas de elementos como o carbono (C), o nitrogênio (N) e o oxigênio (O) refletem processos biogeoquímicos que ocorrem ao longo da vida do peixe.

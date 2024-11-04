@@ -3,7 +3,7 @@ title: "Ecologia Trófica de Tubarões"
 author: "Giulia Terlecki"
 format: html
 editor: visual
-theme: materia
+theme: solar
 fontcolor: tan
 ---
 

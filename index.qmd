@@ -5,18 +5,7 @@ editor: visual
 theme: quartz
 ---
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Site</title>
-  <link rel="icon" href="https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/icone.ico" type="image/x-icon">
-</head>
-<body>
-  
 ## Giulia Terlecki
-
-
 
 ## Repositório da disciplina "Reprodutibilidade Científica com o R" do PPG em Ambientometria (Furg 2024)
 
@@ -32,9 +21,67 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 <a href="Marcadores Químicos na Identificação de Estoques Pesqueiros.html"style= "color: white;">Análises Elementares e Isotópicas na Identificação de Estoques Pesqueiros</a>
 
+
 ## Seleção de Materiais Biológicos a Serem Utilizados nas Análises
 
-<a href="TestesdeInsercoes.html"style= "color: white;">Vértebras para Análises</a>
+![Vértebras emblocadas](VERT1.jpeg), ![Vértebra bloco](VERT2.jpeg)
+
+## Tabela de Vértebra
+
+Um gráfico inserido com chunk representando o material já processado e pronto para a contagem de idades.
+
+```{r}
+library(ggplot2)
+
+data <- data.frame(
+  categoria = c("Tubarão-azul", "Tubarão-anequim"),
+  valor = c(7,45)
+)
+
+ggplot(data, aes(x=categoria, y=valor)) +
+  geom_bar(stat="identity") +
+  labs(title="Vértebras emblocadas em resina - Prontas para corte e contagem de idades",
+       x="Categoria",
+       y="Valor")
+```
+
+## Após a vértebra ser limpa, emblocada e cortada transversalmente, ela é tingida e colocada contra luz em microscópio para visualização de seus anéis de crescimento que, para as espécies do projeto, se formam a cada ano. Assim, cada seta na foto abaixo indica um ano do animal. A foto é de uma vértebra de Tubarão-anequim.
+
+![Vértebra idade](VERT6.jpg){ width=800px height=600px  }
+
+
+## Cronograma do Projeto
+
+<style>
+table {
+    width: 0.9%;
+    border-collapse: collapse;
+    font-size: 0.7em;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+
+}
+</style>
+
+| Ano | 2023 |   |   | 2024 |   |   |   |   |   | 2025 |   |   |   |   |   | 2026 |   |   |   |   |   | 2027 |   |   |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Atividades | 1 | 2 | 3 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 |
+| Levantamento Bibliográfico | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x |
+| Disciplinas |  |  |  | x | x | x | x | x | x | x | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
+| Qualificação |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | x |  |  |  |  |  |  |
+| Processamento das Vértebras e Determinação de idades |  |  |  | x | x | x | x | x | x | x | x | x | x | x | x |  |  |  |  |  |  |  |  |  |
+| Processamento/Análises Isotópicas |  |  |  |  | x | x |  | x | x | x | x | x | x |  |  |  |  |  |  |  |  |  |  |  |
+| Redação/submissão de artigo 1\* |  |  |  |  |  |  |  |  |  |  |  |  |  | x | x | x |  |  |  |  |  |  |  |  |
+| Intercâmbio Sanduíche |  |  |  |  |  |  |  |  |  |  | x | x | x | x |  |  |  |  |  |  |  |  |  |  |
+| Processamento/Análises Elementares |  |  |  |  | x | x |  |  |  |  |  |  |  | x | x | x |  |  |  |  |  |  |  |  |
+| Estágio Docência |  |  |  |  |  |  | x | x | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Redação/submissão de Artigo 2\*\* |  |  |  |  |  |  |  | x | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Redação/submissão de Artigo 3\*\*\* |  |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Redação da Tese |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Defesa da Tese |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Apresentação Simplificada do Projeto de Doutorado
 
@@ -48,7 +95,6 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 #mudando alguma outra coisa para teste 2
 
-
 <style>
   body {
     background-image: url('https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/fundotuba.png');
@@ -61,9 +107,11 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
     color: white;
   }
 </style>
+
 <!-- Conteúdo do site -->
+
 </body>
+
 </html>
-<head>
-  <link rel="icon" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon">
-</head>
+
+<head><link rel="icon" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon"></head>

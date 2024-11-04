@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-]{article}
+  preprint, 3p, authoryear]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -37,56 +37,6 @@
 \makeatother
 \usepackage{xcolor}
 \usepackage[margin=1in]{geometry}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -103,7 +53,7 @@
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\setcounter{secnumdepth}{5}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -112,18 +62,19 @@
 \urlstyle{same}
 \hypersetup{
   pdftitle={Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean},
+  pdfkeywords={Opah, isotopic niche, diet, Atlantic Ocean},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{Seasonal patterns on isotopic niches and diet of Bigeye and
 Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean}
 \author{true \and true \and true}
-\date{}
+\date{2024-09-11}
 
 \begin{document}
 \maketitle
-
-abstract: \textbar{} Abstract
+\begin{abstract}
+Abstract
 
 Opahs (Lampsis spp.) are large deep-water epi-mesopelagic predator
 fishes captured worldwide as bycatch of longline fisheries targeting
@@ -153,123 +104,8 @@ structure of all marine ecosystems where they occur. Given the growing
 global commercial importance of Lampris spp., it is also increasingly
 important to know their inter and intraspecific relationships and the
 anthropological impacts they are suffering.
+\end{abstract}
 
-It consists of two paragraphs. keywords: - keyword1 - keyword2 journal:
-``An awesome journal'' date: ``2024-09-11'' linenumbers: false
-numbersections: true bibliography: mybibfile.bib biblio-style:
-elsarticle-harv \# author year style for natbib - use `elsarticle-num'
-or `elsarticle-num-names' for numbered scheme classoption: preprint, 3p,
-authoryear \# remove authoryear is not using \texttt{elsarticle-harv} \#
-Use a CSL with \texttt{citation\_package\ =\ "default"} \# csl:
-\url{https://www.zotero.org/styles/elsevier-harvard} output:
-rticles::elsevier\_article: keep\_tex: true citation\_package: natbib
----
 
-Please make sure that your manuscript follows the guidelines in the
-Guide for Authors of the relevant journal. It is not necessary to
-typeset your manuscript in exactly the same way as an article, unless
-you are submitting to a camera-ready copy (CRC) journal.
-
-For detailed instructions regarding the elsevier article class, see
-\url{https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions}
-
-\section{Bibliography styles}\label{bibliography-styles}
-
-Here are two sample references: @Feynman1963118 {[}@Dirac1953888{]}.
-
-By default, natbib will be used with the \texttt{authoryear} style, set
-in \texttt{classoption} variable in YAML and with
-\texttt{elsearticle-harv.bst} which is among provided style by
-\texttt{elsarticle} documentclass. Other available style are
-\texttt{elsarticle-num.bst} and \texttt{elsarticle-num-names.bst} ---
-the first one can be used for the numbered scheme, second one for
-numbered with new options of natbib.sty.
-
-You can sets extra options with \texttt{natbiboptions} variable in YAML
-header. Example
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{natbiboptions}\KeywordTok{:}\AttributeTok{ longnamesfirst,angle,semicolon}
-\end{Highlighting}
-\end{Shaded}
-
-There are various more specific bibliography styles available at
-\url{https://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files}.
-To use one of these, add it in the header using, for example,
-\texttt{biblio-style:\ model1-num-names}.
-
-\subsection{Using CSL}\label{using-csl}
-
-If \texttt{citation\_package} is set to \texttt{default} in
-\texttt{elsevier\_article()}, then pandoc is used for citations instead
-of \texttt{natbib}. In this case, the \texttt{csl} option is used to
-format the references. Alternative \texttt{csl} files are available from
-\url{https://www.zotero.org/styles?q=elsevier}. These can be downloaded
-and stored locally, or the url can be used as in the example header.
-
-\section{Equations}\label{equations}
-
-Here is an equation: \[ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-\]
-
-Here is another: \begin{align}
-  a^2+b^2=c^2.
-\end{align}
-
-Inline equations: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
-
-\section{Figures and tables}\label{figures-and-tables}
-
-Figure \ref{fig2} is generated using an R chunk.
-
-\begin{figure}
-
-{\centering \includegraphics[width=0.5\linewidth]{Artigo2_files/figure-latex/fig2-1} 
-
-}
-
-\caption{\label{fig2}A meaningless scatterplot.}\label{fig:fig2}
-\end{figure}
-
-\section{Tables coming from R}\label{tables-coming-from-r}
-
-Tables can also be generated using R chunks, as shown in Table
-\ref{tab1} for example.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}\FunctionTok{head}\NormalTok{(mtcars)[,}\DecValTok{1}\SpecialCharTok{:}\DecValTok{4}\NormalTok{], }
-    \AttributeTok{caption =} \StringTok{"}\SpecialCharTok{\textbackslash{}\textbackslash{}}\StringTok{label\{tab1\}Caption centered above table"}
-\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{longtable}[]{@{}lrrrr@{}}
-\caption{\label{tab1}Caption centered above table}\tabularnewline
-\toprule\noalign{}
-& mpg & cyl & disp & hp \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-& mpg & cyl & disp & hp \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Mazda RX4 & 21.0 & 6 & 160 & 110 \\
-Mazda RX4 Wag & 21.0 & 6 & 160 & 110 \\
-Datsun 710 & 22.8 & 4 & 108 & 93 \\
-Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
-Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
-Valiant & 18.1 & 6 & 225 & 105 \\
-\end{longtable}
-
-\section*{References}\label{references}
-\addcontentsline{toc}{section}{References}
 
 \end{document}

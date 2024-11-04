@@ -5,92 +5,75 @@ format: html
 editor: visual
 ---
 
-![Elefante](https://www.dfo-mpo.gc.ca/species-especes/images/profiles-profils/~sharks/blue-shark/blue-bleu.jpg){.absolute top=200 left=50 width="750" height="300"}
+![Elefante](https://www.dfo-mpo.gc.ca/species-especes/images/profiles-profils/~sharks/blue-shark/blue-bleu.jpg){.absolute top="200" left="50" width="750" height="300"}
 
+-   Estações:
+    -   **Primavera**
+        -   22/09 - 20/12
+    -   **Verão**
+        -   21/12 - 20/03
+    -   **Outono**
+        -   21/03 - 20/06
+    -   **Inverno**
+        -   21/06 - 21/09
 
+1.  Espécies Estudadas:
 
+<!-- -->
 
-* Estações:
-    + **Primavera**
-        - 22/09 - 20/12
-    + **Verão**
-        - 21/12 - 20/03
-    + **Outono**
-        - 21/03 - 20/06
-    + **Inverno**
-        - 21/06 - 21/09
+i)  ***Prionace glauca***\
+    A. Machos :30\
+    B. Fêmeas :30
 
-1. Espécies Estudadas:
-  i) ***Prionace glauca***  
-        A. Machos :30  
-        B. Fêmeas :30   
-        
-  ii) ***Isurus oxyrinchus***   
-        A. Machos: 30  
-        B. Fêmeas: 30  
-        
-2. Locais de Amostragem
+ii) ***Isurus oxyrinchus***\
+    A. Machos: 30\
+    B. Fêmeas: 30
 
-       i)Rio Grande do Sul  
-        ii)Namíbia  
-         iii) NE Brasil  
-          iv) Oceano Atlântico - região equatorial   
-           v) Giro Guiné  
-  
-3. Numero total de Amostras ???
+<!-- -->
 
-                
-+---------------+------------------+--------------------+
-| Local         | Coletada         |    Número          |
-+===============+==================+====================+
-| RS - BR       | Sim - *P. glauca*| 1600               |
-|               | e *I. oxyhinchus*|                    |
-+---------------+------------------+--------------------+
-| NE - BR       | Não              |                    |
-|               |                  |                    |
-+---------------+------------------+--------------------+
-| Namíbia       | Sim              | - 10 azul          |
-|               |                  | - x anequim        |
-+---------------+------------------+--------------------+
-| Guiné         | Não              |                    |
-|               |                  |                    |
-+---------------+------------------+--------------------+
-| Equador -     | 2000             |                    |
-| Atlântico     |                  |                    |
-+---------------+------------------+--------------------+
+2.  Locais de Amostragem
 
+    ```         
+    i)Rio Grande do Sul  
+     ii)Namíbia  
+      iii) NE Brasil  
+       iv) Oceano Atlântico - região equatorial   
+        v) Giro Guiné  
+    ```
 
+3.  Numero total de Amostras ???
+
++---------------------+-------------------------------------+---------------+
+| Local               | Coletada                            | Número        |
++=====================+=====================================+===============+
+| RS - BR             | Sim - *P. glauca* e *I. oxyhinchus* | 1600          |
++---------------------+-------------------------------------+---------------+
+| NE - BR             | Não                                 |               |
++---------------------+-------------------------------------+---------------+
+| Namíbia             | Sim                                 | -   10 azul   |
+|                     |                                     | -   x anequim |
++---------------------+-------------------------------------+---------------+
+| Guiné               | Não                                 |               |
++---------------------+-------------------------------------+---------------+
+| Equador - Atlântico | 2000                                |               |
++---------------------+-------------------------------------+---------------+
 
 : Sample grid table.
 
-
-
-$E = mc^{2}$ <!--para inline-->
-ou
-$$E = mc^{2}$$ <!--para centro da linha-->
+$E = mc^{2}$ <!--para inline--> ou $$E = mc^{2}$$ <!--para centro da linha-->
 
 `Frase de Efeito`
 
-
-::: {.column-margin}
-We know from *the first fundamental theorem of calculus* 
+::: column-margin
+We know from *the first fundamental theorem of calculus*
 :::
 
-{mermaid}
-flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
+{mermaid} flowchart LR A\[Hard edge\] --\> B(Round edge) B --\> C{Decision} C --\> D\[Result one\] C --\> E\[Result two\]
 
 Veja em mermaid.js.org
 
-
-
-
-:::{.callout-note}
-Note that there are five types of callouts, including: 
-`note`, `tip`, `warning`, `caution`, and `important`.
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
 :::
 
 > Bloco destacado
@@ -99,21 +82,12 @@ Note that there are five types of callouts, including:
 |   Spaces and newlines
 |   are preserved
 
-
-::: {layout-ncol=2}
-asdasd  
+::: {layout-ncol="2"}
+asdasd
 
 asdasd
 :::
 
+Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho. ::: {layout="\[\[1,1\], \[1\]\]"} ![Surus](surus.png) ![Surus1](surus1.png) ![Surus2](surus2.png) :::
 
-Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.
-::: {layout="[[1,1], [1]]"}
-![Surus](surus.png)
-![Surus1](surus1.png)
-![Surus2](surus2.png)
-:::
-
-Para layout com percentuais:
-::: {layout="[[40,-20,40], [100]]"}
-
+Para layout com percentuais: ::: {layout="\[\[40,-20,40\], \[100\]\]"}
