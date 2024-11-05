@@ -89,11 +89,13 @@ th, td {
 
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação Projeto de Doutorado Giulia</a>
 
-## Artigo Teste formatado com RMarkdown no modelo para Elsevier
+# Artigo Teste formatado com RMarkdown:
+## Uso de Habitat de Tubaroes Azul e Anequim no Oceano Atlantico Sul 
 
-[VISUALIZAR - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/ArtigoElsevier/ArtigoElsevier.pdf)
+<iframe src="Frontiers.pdf" width="100%" height="600px">
+  Este navegador não suporta visualização de PDF. Você pode fazer o download do PDF [aqui](C:\Users\giuli\Dropbox\Doutorado\Disciplinas DOC\Reprodutibilidade de Resultados Estatísticos com o R\Reprodutibilidade\arquivo.pdf).
+</iframe>
 
-[DOWNLOAD - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/raw/main/ArtigoElsevier/ArtigoElsevier.pdf)
 
 <style>
   body {
