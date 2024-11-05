@@ -42,7 +42,7 @@ css: styles.css
 -   **Tubarão Azul**: Habita águas mais profundas durante o dia e retorna à superfície à noite.
 -   **Tubarão Mako**: Prefere águas mais quentes e superficiais.
 
-![Distribuição Espacial](https://example.com/distribuicao_espacial.jpg){width="600px" height="400px"}
+![Distribuição Espacial](stockarea.jpg){width="400px" height="400px"}
 
 ## Diferenças Tróficas
 
@@ -130,4 +130,3 @@ Avaliar a variabilidade intra e interespecífica no uso de habitat dos tubarões
 ## Fórmula de Cálculo Isotópico
 
 A composição isotópica de carbono e nitrogênio das amostras pode ser calculada usando as seguintes equações:
-

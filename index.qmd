@@ -5,9 +5,9 @@ editor: visual
 theme: quartz
 ---
 
-## Giulia Terlecki 
+## Giulia Terlecki
 
-![](icone.png){width=200 height=200}
+![](icone.png){width="200" height="200"}
 
 ### [*Agredeço a oportunidade de melhorar o projeto.*]{.underline}
 
@@ -52,7 +52,7 @@ ggplot(data, aes(x=categoria, y=valor)) +
 
 ![Vértebra idade](VERT6.jpg){width="800px" height="600px"}
 
-## Cronograma  do  Projeto
+## Cronograma do Projeto
 
 <style>
 table {
@@ -69,7 +69,7 @@ th, td {
 </style>
 
 | Ano | 2023 |   |   | 2024 |   |   |   |   |   | 2025 |   |   |   |   |   | 2026 |   |   |   |   |   | 2027 |   |   |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | Atividades | 1 | 2 | 3 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 |
 | Levantamento Bibliográfico | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x |
 | Disciplinas |  |  |  | x | x | x | x | x | x | x | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -90,12 +90,14 @@ th, td {
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação Projeto de Doutorado Giulia</a>
 
 # Artigo Teste formatado com RMarkdown:
-## Uso de Habitat de Tubaroes Azul e Anequim no Oceano Atlantico Sul 
+
+## Uso de Habitat de Tubaroes Azul e Anequim no Oceano Atlantico Sul
 
 <iframe src="Frontiers.pdf" width="100%" height="600px">
-  Este navegador não suporta visualização de PDF. Você pode fazer o download do PDF [aqui](C:\Users\giuli\Dropbox\Doutorado\Disciplinas DOC\Reprodutibilidade de Resultados Estatísticos com o R\Reprodutibilidade\arquivo.pdf).
-</iframe>
 
+Este navegador não suporta visualização de PDF. Você pode fazer o download do PDF [aqui](C:\Users\giuli\Dropbox\Doutorado\Disciplinas%20DOC\Reprodutibilidade%20de%20Resultados%20Estatísticos%20com%20o%20R\Reprodutibilidade\arquivo.pdf).
+
+</iframe>
 
 <style>
   body {
