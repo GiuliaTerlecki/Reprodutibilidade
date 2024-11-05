@@ -52,7 +52,7 @@ ggplot(data, aes(x=categoria, y=valor)) +
 
 ![Vértebra idade](VERT6.jpg){width="800px" height="600px"}
 
-## Cronograma do Projeto
+## Cronograma  do  Projeto
 
 <style>
 table {
