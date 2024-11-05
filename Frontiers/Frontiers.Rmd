@@ -1,0 +1,95 @@
+---
+title: "Uso de Habitat de Tubarões Azul e Anequim no Oceano Atlântico Sul"
+author:
+- name: Giulia Terlecki
+  affiliation: '1'
+  email: giuliaterlecki@gmail.com
+- name: Silvina Bota
+  affiliation: '2'
+  email: silvinabota@gmail.com
+- name: Luis Gustavo Cardoso
+  affiliation: '1'
+  email: luisgustavocardoso@gmail.com
+documentclass: FrontiersinHarvard
+output: pdf_document
+runtitle: Habitat de Tubarões no Atlântico Sul
+affiliation:
+- id: '1'
+  department: Laboratório de Dinâmica Populacional Pesqueira
+  institution: Instituto de Oceanografia, Universidade Federal do Rio Grande (FURG)
+  street: Avenida Itália, s/n
+  city: Rio Grande
+  state: RS
+  zip: 96100000
+  country: Brasil
+- id: '2'
+  department: Laboratório de Mamíferos
+  institution: Instituto de Oceanografia, Universidade Federal do Rio Grande (FURG)
+  street: Avenida Itália, s/n
+  city: Rio Grande
+  state: RS
+  zip: 96100000
+  country: Brasil
+classoption: utf8
+---
+
+
+
+# Abstract {-}
+
+Este estudo analisa o uso de habitat, a sobreposição de nicho e a conectividade do tubarão azul (*Prionace glauca*) e do anequim (*Isurus oxyrinchus*) no Atlântico Sul. Utilizando análises isotópicas e microquímicas em vértebras, investigamos mudanças ontogenéticas no uso de habitat e comportamentos alimentares dessas espécies. Os objetivos incluem avaliar a sobreposição de nicho, identificar especializações tróficas e verificar a conectividade do tubarão azul entre regiões do Atlântico Sul. Esperamos demonstrar uma sobreposição de nicho entre as espécies e evidências de conectividade transoceânica para o tubarão azul, fornecendo dados essenciais para manejo ecossistêmico e conservação.
+  
+keywords:
+  - Conectividade
+  - Sobreposição de nicho
+  - Tubarão azul
+  - Atlântico Sul
+  - Análise isotópica
+  - Ecologia trófica
+  - Migração transoceânica
+  - Gestão ecossistêmica
+
+output: rticles::frontiers_article
+bibliography: test.bib
+biblio-style: Frontiers-Harvard
+---
+
+# Introduction {-}
+
+O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira [@Campana2004; @Stevens2010]. Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico [@Heithaus2008]. Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional [@Queiroz2019; @Ferreira2017].
+
+O uso de análises isotópicas e microquímicas em vértebras de tubarões tem se mostrado uma ferramenta valiosa para rastrear padrões de migração, conectividade e mudanças ontogenéticas em hábitos alimentares [@Estrada2006; @Hussey2015]. Através dessas análises, é possível identificar as áreas de alimentação e os movimentos sazonais das espécies, fornecendo insights sobre as dinâmicas de habitat e as interações tróficas ao longo de diferentes fases da vida dos tubarões [@Carlisle2015; @MacNeil2005].
+
+### Fórmula para Posição Trófica {-}
+
+Para estimar a posição trófica dos tubarões analisados, foi utilizada a seguinte fórmula de enriquecimento isotópico de nitrogênio entre predador e presa:
+
+\[
+\Delta^{15}N = \delta^{15}N_{predador} - \delta^{15}N_{presa}
+\]
+
+onde \(\delta^{15}N\) representa o valor isotópico de nitrogênio nas amostras de vértebras, possibilitando inferir a posição trófica e os hábitos alimentares ontogenéticos dos indivíduos [@Shiffman2019; @Rooker2008].
+
+Estudos como o de @Queiroz2019 demonstram que o tubarão azul exibe conectividade entre regiões do Atlântico, reforçando a necessidade de uma abordagem de manejo cooperativa entre diferentes países. Este estudo visa investigar a sobreposição de nicho entre o tubarão azul e o anequim no Atlântico Sul e avaliar a conectividade do tubarão azul entre as regiões sudoeste e sudeste do oceano.
+
+# Results {-}
+
+Espera-se que os resultados deste estudo revelem uma sobreposição significativa de nicho entre o tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) no Atlântico Sul. A análise isotópica deverá indicar variações na posição trófica entre as fases ontogenéticas dos tubarões, evidenciando especializações alimentares em diferentes estágios de vida [@Carlisle2015; @Estrada2006].
+
+### Sugestão de Imagem {-}
+
+Um **mapa do Atlântico Sul** com as rotas de migração estimadas dos tubarões azul e anequim, destacando os pontos de coleta das amostras de vértebras, é uma adição importante. Esse mapa visualizaria as conexões entre as regiões sudoeste e sudeste do Atlântico e outras áreas relevantes, demonstrando visualmente a distribuição e possíveis rotas migratórias das duas espécies.
+
+```{r trophic_graph, echo = TRUE, message=FALSE}
+# Simulação de dados
+set.seed(999)
+idades <- 1:20  # Classes etárias de 1 a 20 anos
+trop_shark <- 3 + 0.1 * idades + rnorm(length(idades), sd = 0.3)  # Posição trófica simulada do tubarão azul
+trop_mako <- 3.5 + 0.08 * idades + rnorm(length(idades), sd = 0.3)  # Posição trófica simulada do anequim
+
+# Plotando o gráfico
+plot(idades, trop_shark, type = "o", col = "blue", ylim = c(3, 6),
+     main = "Posição Trófica por Idade para Tubarões Azul e Anequim",
+     xlab = "Idade (anos)", ylab = "Posição Trófica")
+lines(idades, trop_mako, type = "o", col = "red")
+legend("topleft", legend = c("Tubarão Azul", "Anequim"), col = c("blue", "red"), lty = 1, pch = 1)
