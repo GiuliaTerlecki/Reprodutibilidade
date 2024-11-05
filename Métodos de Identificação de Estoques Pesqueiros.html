@@ -35,35 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="Métodos de Identificação de Estoques Pesqueiros_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Métodos de Identificação de Estoques Pesqueiros_files/libs/bootstrap/bootstrap-c9a3bfea7d2074b7c31e96304f83d913.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -117,14 +88,6 @@ window.Quarto = {
 <p><img src="LogoICCAT-med.png" class="img-fluid" width="100" alt="Elefante"><a href="https://www.iccat.int/en/">ICCAT - International Commission for the Conservation of Atlantic Tunas</a></p>
 <p><img src="FAO.png" class="img-fluid" width="100" alt="Elefante"><a href="https://www.fao.org/brasil/pt/">FAO - Organização das Naçoes Unidas para Alimentação e Agricultura</a></p>
 <p><img src="mcmillan2017.png" class="img-fluid" width="100" alt="Elefante"><a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://watermark.silverchair.com/fsw176.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1QwggNQBgkqhkiG9w0BBwagggNBMIIDPQIBADCCAzYGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMtLQ_vpitF468a_UfAgEQgIIDB-jzxo1_ljQU01gSqdERusjy9K3xQIP9Ig6OunooGNvhl7Etc3kyCNgv2uJB5fv_JV4cp0u0lr6ZOl6ZS3SN7WJWwWDLqjOXWr5PSHrwbRH9sYbtKjB-hX8qEs_8R4rvUwuj9S6FWZNUduxIMieJ1UWzB8wDsylq0sbhPVGSUzSQpR4oL4qJFtdZ9TYRhX6tmZFXlDaJatmS4zFrMKaMNmD-l-nRPyHHR2eiTRsRdH6Jm7ebvairbdUyPk5VbQE_N7bqZcqQRlzdi3ffPjNsYusWXEZrY51SOpg3-zhF5W8QEbFdjLNqTyNSLE2w8T5B_v-8mshGCCldBQ0rUKcaBmSWi6zGVpkgpiG-OcB91aoKj38Jro3NEbYmfVtxqeDPhgD1rqcI2Ve0Oz2qrva_IhT9kULwq7OCaeNEjSPn0ilrZiqj1oPhRTHCScSY2BedWSunRC0d0ysz34RQ0_9ADDHWVOFyQibWHcxZLDvj5--nPyMyTWDFFi4aT2dBiKJ0AGpmaewISW69Pvpvrt9jShAcN9lyVJONy4BWJXjhR6rFH2D9QH0cVwkKFZoEfH7BASmnFVWxXqR7xiDnfLK24fFLIbx4WSRfGsD-J4KCIi2LDB_pOuyM3zEmS8ZbnxygAzjuFPMIS2NadzerFogBgIMKmxBaszxErhHeAQYlBZEd8bGqHrKp8jUEhbAfof04iLN-QYrLGKhCcY4zOMS4SFTG9VKzaRui0LtOK9V4GMVw51th_trzTwQIX0ldw7vfRJAJGTD6edvgj8ACzGJ_xk8f_ool7kOY_C4U0qk21ud-_EyCR4_6UX6Z5ZGmOiO7Rxe1wuuTeLzQdFARRuTOz4fPSdYhyt8FqIsmzpavtY-HzESFaEor42rpLxFbkI2AnspvoqJW7qxqfkLpTKSzwsoOOK8yn8AEPfzCkTibWjBOd1jI414XYNcx5ktgAZ3Qmf-_9RB60zyz3QBuwaMzSMr-x3D37A9eTxHgCCeHQjppH8Oqhl1DCiUhFtKuJnGl_EN4sqXov78">McMillan et al 2017 - Uso de marcadores qímicos na identificação de estoque de tubarão de profundidade</a></p>
-<p>A composição isotópica de carbono e nitrogenio das amostras pode ser calculada usando as seguintes equações:</p>
-<p><span class="math display">\[
-\delta^{13}\text{C} (\text{‰}) = \left( \frac{{^{13}\text{C}/^{12}\text{C}}_{\text{amostra}}}{{^{13}\text{C}/^{12}\text{C}}_{\text{padrão}}} - 1 \right) \times 1000
-\]</span></p>
-<p><span class="math display">\[
-\delta^{15}\text{N} (\text{‰}) = \left( \frac{{^{15}\text{N}/^{14}\text{N}}_{\text{amostra}}}{{^{15}\text{N}/^{14}\text{N}}_{\text{padrão}}} - 1 \right) \times 1000
-\]</span></p>
-<p>onde ‰ é a medida em partes por mil, ( <sup>{13}</sup>/{12} ) e ( <sup>{15}</sup>/{14} ) são as razões atômicas de ( ^{13} ) e ( ^{15} ) na amostra ou no padrão, respectivamente, e δ é a medida do isótopo pesado para o leve na amostra.</p>
 <p><a href="index.html" style="color: blue;">Reprodutibilidade Científica com o R</a> <button type="button" class="btn btn-primary btn-sm"><a href="index.html" style="color: blue;">Reprodutibilidade Científica com o R</a></button></p>
 </section>
 
