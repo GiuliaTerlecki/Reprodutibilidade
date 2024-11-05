@@ -6,7 +6,7 @@ documentclass: FrontiersinHarvard # for articles in journals using the Harvard R
 # documentclass: frontiersinFPHY_FAMS # Vancouver Reference Style (Numbered) for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
 classoption: utf8
 author:
-  - name: Giulia 
+  - name: Giulia Terlecki
     affiliation: '1'
     etal: Terlecki # First author's last name. 
     email: giuliaterlecki@gmail.com # Indicates corresponding Author
@@ -40,11 +40,11 @@ abstract: |
   <http://www.frontiersin.org/about/AuthorGuidelines> for abstract requirement
   and length according to article type.
 keywords: # All article types: you may provide up to 8 keywords; at least 5 are mandatory.
-  - kw1
-  - kw2
-  - kw3
-  - kw4
-  - kw5
+  - tubarao azul
+  - estoques pesqueiros
+  - microquimica
+  - isotopos
+  - uso de habitat
 output: rticles::frontiers_article
 
 ---
@@ -54,6 +54,8 @@ output: rticles::frontiers_article
 O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira [@Campana2004; @Stevens2010]. Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico [@Heithaus2008]. Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional [@Queiroz2019; @Ferreira2017].
 
 O uso de análises isotópicas e microquímicas em vértebras de tubarões tem se mostrado uma ferramenta valiosa para rastrear padrões de migração, conectividade e mudanças ontogenéticas em hábitos alimentares [@Estrada2006; @Hussey2015]. Através dessas análises, é possível identificar as áreas de alimentação e os movimentos sazonais das espécies, fornecendo insights sobre as dinâmicas de habitat e as interações tróficas ao longo de diferentes fases da vida dos tubarões [@Carlisle2015; @MacNeil2005].
+
+![Dois locais analisados no estudo](stockarea.jpg){ width=50% }
 
 ### Fórmula para Posição Trófica {-}
 
@@ -71,9 +73,12 @@ Estudos como o de @Queiroz2019 demonstram que o tubarão azul exibe conectividad
 
 Espera-se que os resultados deste estudo revelem uma sobreposição significativa de nicho entre o tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) no Atlântico Sul. A análise isotópica deverá indicar variações na posição trófica entre as fases ontogenéticas dos tubarões, evidenciando especializações alimentares em diferentes estágios de vida [@Carlisle2015; @Estrada2006].
 
+![PCA microquimica dois locais](grupo2.png){ width=50% }
+![Sobreposição de nichos isotópicos dois locais](group22.png){ width=50% }
+
 (mapa do Atlântico Sul) com as rotas de migração estimadas dos tubarões azul e anequim, destacando os pontos de coleta das amostras de vértebras, é uma adição importante. Esse mapa visualizaria as conexões entre as regiões sudoeste e sudeste do Atlântico e outras áreas relevantes, demonstrando visualmente a distribuição e possíveis rotas migratórias das duas espécies.
 
-
+![Perfis microquímicos dois locais](group23.png){ width=50% }
 # Discussion
 
 Os resultados sugerem uma significativa sobreposição de nicho entre o tubarão azul (Prionace glauca) e o anequim (Isurus oxyrinchus) no Atlântico Sul, com ambos ocupando habitats pelágicos similares para alimentação e reprodução. Essa sobreposição de nicho pode indicar competição por recursos nas áreas onde as duas espécies coabitam, o que pode ter implicações importantes para a gestão pesqueira, especialmente considerando que ambas as espécies já são vulneráveis à exploração.
