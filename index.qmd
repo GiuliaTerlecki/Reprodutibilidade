@@ -5,7 +5,7 @@ editor: visual
 theme: quartz
 ---
 
-## Giulia Terlecki
+## Giulia Terleckiii
 
 ## Repositório da disciplina "Reprodutibilidade Científica com o R" do PPG em Ambientometria (Furg 2024)
 
