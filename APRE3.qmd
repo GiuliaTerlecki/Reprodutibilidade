@@ -131,8 +131,3 @@ Avaliar a variabilidade intra e interespecífica no uso de habitat dos tubarões
 
 A composição isotópica de carbono e nitrogênio das amostras pode ser calculada usando as seguintes equações:
 
-$$
-\delta^{13}\text{C} (\text{‰}) = \left( \frac{{^{13}\text{C}/^{12}\text{C}}_{\text{amostra}}}{{^{13}\text{C}/^{12}\text{C}}_{\text{padrão}}} - 1 \right) \times 1000
-$$
-
-\$\$ \delta\^{15}\text{N} (\text{‰}) = \left( \\frac{{^{15}^\text{N}/{14}\text{N}}\_{\\text{amostra ::contentReference[oaicite:0]{index="0"}
