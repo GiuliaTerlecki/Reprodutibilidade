@@ -46,7 +46,11 @@ keywords: # All article types: you may provide up to 8 keywords; at least 5 are 
   - kw4
   - kw5
 output: rticles::frontiers_article
-
+# csl: frontiers.csl
+bibliography: RefsFRONTIERS.bib
+# Match bibliostyle with the documentclass
+biblio-style: Frontiers-Harvard # Many Frontiers journals use the Harvard referencing system (Author-date), to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal. For Humanities and Social Sciences articles please include page numbers in the in-text citations 
+#biblio-style: Frontiers-Vancouver # Many Frontiers journals use the numbered referencing system, to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 ---
 
 # Introduction {-}

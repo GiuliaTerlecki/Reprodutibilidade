@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  5 NOV 2024 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  5 NOV 2024 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Frontiers.tex
-(./Frontiers.tex
+**Untitled.tex
+(./Untitled.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (./FrontiersinHarvard.cls
@@ -467,8 +467,9 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box68
-) (./Frontiers.aux)
-\openout1 = `Frontiers.aux'.
+)
+No file Untitled.aux.
+\openout1 = `Untitled.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
 LaTeX Font Info:    ... okay on input line 102.
@@ -498,9 +499,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 102.
-(./Frontiers.out) (./Frontiers.out)
 \@outlinefile=\write4
-\openout4 = `Frontiers.out'.
+\openout4 = `Untitled.out'.
 
 LaTeX Info: Redefining \microtypecontext on input line 102.
 Package microtype Info: Applying patch `item' on input line 102.
@@ -533,15 +533,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package epstopdf Info: Source file: <./logo1.eps>
-(epstopdf)                    date: 2024-11-05 05:20:10
+(epstopdf)                    date: 2024-11-05 15:24:25
 (epstopdf)                    size: 38401 bytes
 (epstopdf)             Output file: <./logo1-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-05 14:21:07
-(epstopdf)                    size: 24805 bytes
+(epstopdf)                    date: 2024-11-05 15:24:48
+(epstopdf)                    size: 24808 bytes
 (epstopdf)             Command: <repstopdf --outfile=./logo1-eps-converted-to.pdf ./logo1.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
-<./logo1-eps-converted-to.pdf, id=28, 284.06125pt x 80.3pt>
+<./logo1-eps-converted-to.pdf, id=4, 284.06125pt x 80.3pt>
 File: ./logo1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./logo1-eps-converted-to.pdf>
 Package pdftex.def Info: ./logo1-eps-converted-to.pdf  used on input line 119.
@@ -621,18 +621,18 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 156.
 
 
-Package natbib Warning: Citation `Shiffman2019' on page 1 undefined on input line 169.
-
-
-Package natbib Warning: Citation `Rooker2008' on page 1 undefined on input line 169.
-
-
 
 [1
 
 
 
 {c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} <./logo1-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `Shiffman2019' on page 2 undefined on input line 169.
+
+
+Package natbib Warning: Citation `Rooker2008' on page 2 undefined on input line 169.
+
 
 Package natbib Warning: Citation `Queiroz2019' on page 2 undefined on input line 171.
 
@@ -656,11 +656,12 @@ Underfull \hbox (badness 1354) in paragraph at lines 204--214
 
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <11> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 240.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 235.
 
 Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 [2]
+No file Untitled.bbl.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 18.
 See the caption package documentation for explanation.
@@ -674,27 +675,36 @@ Overfull \vbox (3.49998pt too high) has occurred while \output is active []
 
 Package natbib Warning: There were undefined citations.
 
-(./Frontiers.aux)
+(./Untitled.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-Package rerunfilecheck Info: File `Frontiers.out' has not changed.
-(rerunfilecheck)             Checksum: 97AD682ADB8133E03009A2700F6E40D7;930.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Untitled.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Untitled.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  97AD682ADB8133E03009A2700F6E40D7;930.
  ) 
 Here is how much of TeX's memory you used:
- 16544 strings out of 475321
- 267803 string characters out of 5768031
- 712834 words of memory out of 5000000
- 38934 multiletter control sequences out of 15000+600000
+ 16531 strings out of 475321
+ 267619 string characters out of 5768031
+ 711562 words of memory out of 5000000
+ 38927 multiletter control sequences out of 15000+600000
  595295 words of font info for 188 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 87i,8n,131p,1017b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,131p,1016b,488s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/giuli/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Frontiers.pdf (3 pages, 159100 bytes).
+Output written on Untitled.pdf (3 pages, 158527 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 69686 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 69638 words of extra memory for PDF output out of 74296 (max. 10000000)
 
