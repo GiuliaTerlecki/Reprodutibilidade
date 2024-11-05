@@ -28,17 +28,12 @@ affiliation:
     state: Rio Grande do Sul
     country: Brazil
   - id: '2' 
-    department: Department X
+    department: Laboratório de Ecologia e Conservação da Megafauna Marinha
     institution: Universidade Federal do Rio Grande
     city: Rio Grande
     state: Rio Grande do Sul 
     country: Brazil
   
-# Abstract can also be provided at the 
-abstract: |
-  Abstract length and content varies depending on article type. Refer to 
-  <http://www.frontiersin.org/about/AuthorGuidelines> for abstract requirement
-  and length according to article type.
 keywords: # All article types: you may provide up to 8 keywords; at least 5 are mandatory.
   - tubarao azul
   - estoques pesqueiros
@@ -46,45 +41,42 @@ keywords: # All article types: you may provide up to 8 keywords; at least 5 are 
   - isotopos
   - uso de habitat
 output: rticles::frontiers_article
-# csl: frontiers.csl
-bibliography: RefsFRONTIER.bib
-# Match bibliostyle with the documentclass
-biblio-style: Frontiers-Harvard # Many Frontiers journals use the Harvard referencing system (Author-date), to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal. For Humanities and Social Sciences articles please include page numbers in the in-text citations 
-#biblio-style: Frontiers-Vancouver # Many Frontiers journals use the numbered referencing system, to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
-
 ---
 
-# Introduction {-}
+# Abstract {.unnumbered}
+O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira . Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico. Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional.
 
-O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira [@Campana2004; @Stevens2010]. Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico [@Heithaus2008]. Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional [@Queiroz2019; @Ferreira2017].
+# Introduction {.unnumbered}
 
-O uso de análises isotópicas e microquímicas em vértebras de tubarões tem se mostrado uma ferramenta valiosa para rastrear padrões de migração, conectividade e mudanças ontogenéticas em hábitos alimentares [@Estrada2006; @Hussey2015]. Através dessas análises, é possível identificar as áreas de alimentação e os movimentos sazonais das espécies, fornecendo insights sobre as dinâmicas de habitat e as interações tróficas ao longo de diferentes fases da vida dos tubarões [@Carlisle2015; @MacNeil2005].
+O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira. Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico . Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional.
 
-![Dois locais analisados no estudo](stockarea.jpg){ width=50% }
+O uso de análises isotópicas e microquímicas em vértebras de tubarões tem se mostrado uma ferramenta valiosa para rastrear padrões de migração, conectividade e mudanças ontogenéticas em hábitos alimentares. Através dessas análises, é possível identificar as áreas de alimentação e os movimentos sazonais das espécies, fornecendo insights sobre as dinâmicas de habitat e as interações tróficas ao longo de diferentes fases da vida dos tubarões.
 
-### Fórmula para Posição Trófica {-}
+![Dois locais analisados no estudo](stockarea.jpg){ width=300px height=300px }
+
+### Fórmula para Posição Trófica {.unnumbered}
 
 Para estimar a posição trófica dos tubarões analisados, foi utilizada a seguinte fórmula de enriquecimento isotópico de nitrogênio entre predador e presa:
 
-\[
+$$
 \Delta^{15}N = \delta^{15}N_{predador} - \delta^{15}N_{presa}
-\]
+$$
 
-onde \(\delta^{15}N\) representa o valor isotópico de nitrogênio nas amostras de vértebras, possibilitando inferir a posição trófica e os hábitos alimentares ontogenéticos dos indivíduos [@Shiffman2019; @Rooker2008].
+onde $\delta^{15}N$ representa o valor isotópico de nitrogênio nas amostras de vértebras, possibilitando inferir a posição trófica e os hábitos alimentares ontogenéticos dos indivíduos.
 
-Estudos como o de @Queiroz2019 demonstram que o tubarão azul exibe conectividade entre regiões do Atlântico, reforçando a necessidade de uma abordagem de manejo cooperativa entre diferentes países. Este estudo visa investigar a sobreposição de nicho entre o tubarão azul e o anequim no Atlântico Sul e avaliar a conectividade do tubarão azul entre as regiões sudoeste e sudeste do oceano.
+Estudos como o de demonstram que o tubarão azul exibe conectividade entre regiões do Atlântico, reforçando a necessidade de uma abordagem de manejo cooperativa entre diferentes países. Este estudo visa investigar a sobreposição de nicho entre o tubarão azul e o anequim no Atlântico Sul e avaliar a conectividade do tubarão azul entre as regiões sudoeste e sudeste do oceano.
 
- Results {-}
+Results {-}
 
-Espera-se que os resultados deste estudo revelem uma sobreposição significativa de nicho entre o tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) no Atlântico Sul. A análise isotópica deverá indicar variações na posição trófica entre as fases ontogenéticas dos tubarões, evidenciando especializações alimentares em diferentes estágios de vida [@Carlisle2015; @Estrada2006].
+Espera-se que os resultados deste estudo revelem uma sobreposição significativa de nicho entre o tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) no Atlântico Sul. A análise isotópica deverá indicar variações na posição trófica entre as fases ontogenéticas dos tubarões, evidenciando especializações alimentares em diferentes estágios de vida.
 
-![PCA microquimica dois locais](grupo2.png){ width=50% }
-![Sobreposição de nichos isotópicos dois locais](group22.png){ width=50% }
+![PCA microquimica dois locais](grupo2.png){ width=300px height=300px } ![Sobreposição de nichos isotópicos dois locais](group22.png){ width=300px height=300px }
 
 (mapa do Atlântico Sul) com as rotas de migração estimadas dos tubarões azul e anequim, destacando os pontos de coleta das amostras de vértebras, é uma adição importante. Esse mapa visualizaria as conexões entre as regiões sudoeste e sudeste do Atlântico e outras áreas relevantes, demonstrando visualmente a distribuição e possíveis rotas migratórias das duas espécies.
 
-![Perfis microquímicos dois locais](group23.png){ width=50% }
-# Discussion
+![Perfis microquímicos dois locais](group23.png){ width=300px height=300px }
+
+\# Discussion
 
 Os resultados sugerem uma significativa sobreposição de nicho entre o tubarão azul (Prionace glauca) e o anequim (Isurus oxyrinchus) no Atlântico Sul, com ambos ocupando habitats pelágicos similares para alimentação e reprodução. Essa sobreposição de nicho pode indicar competição por recursos nas áreas onde as duas espécies coabitam, o que pode ter implicações importantes para a gestão pesqueira, especialmente considerando que ambas as espécies já são vulneráveis à exploração.
 
@@ -92,7 +84,7 @@ As análises isotópicas revelaram variações na posição trófica ao longo da
 
 Essas descobertas oferecem uma base valiosa para futuras recomendações de conservação, que devem considerar a dinâmica de conectividade e a especialização trófica ao longo da vida dessas espécies.
 
-# Disclosure/Conflict-of-Interest Statement {-}
+# Disclosure/Conflict-of-Interest Statement {.unnumbered}
 
 <!--  
 Frontiers follows the recommendations by the International Committee of Medical
@@ -117,11 +109,9 @@ following points:
    you wrote in the submitted work.
  -->
 
-The authors declare that the research was conducted in the absence of any
-commercial or financial relationships that could be construed as a potential
-conflict of interest.
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
 
-# Author Contributions {-}
+# Author Contributions {.unnumbered}
 
 <!--  
 
@@ -141,15 +131,13 @@ should not be listed as authors, but they should be acknowledged.
 (http://www.icmje.org/roles_a.html)
 
 -->
+
 Giulia Terlecki: Led study design, objectives, and methodology. Conducted isotopic and microchemical analyses, interpreted data, and drafted the manuscript. Approved the final version and is accountable for data accuracy and conclusions.
 
 Silvina Bota: Provided technical support in microchemical methodology and contributed to the critical review, ensuring methodological accuracy. Approved the final version and is responsible for the precision of microchemical analyses.
 
 Luis Gustavo Cardoso: Offered guidance on study conception, statistical analysis, and manuscript revisions, contextualizing findings within the literature. Approved the final version and ensures content integrity.
 
-
-# Acknowledgments {-}
+# Acknowledgments {.unnumbered}
 
 This study was supported by funding from the Coordination for the Improvement of Higher Education Personnel (CAPES), the National Council for Scientific and Technological Development (CNPq), and the Office of the Dean of Extension and Culture (PROEX). We also thank the Institute of Coastal and Marine Ecosystem Research (ICACAT) for additional support.
-
-
