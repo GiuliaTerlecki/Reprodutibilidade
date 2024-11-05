@@ -5,9 +5,11 @@ editor: visual
 theme: quartz
 ---
 
-## Giulia Terleckiii
+## Giulia Terlecki
 
-## Repositório da disciplina "Reprodutibilidade Científica com o R" do PPG em Ambientometria (Furg 2024)
+### [*Agredeço a oportunidade de melhorar o projeto.*]{.underline}
+
+### Repositório da disciplina "Reprodutibilidade Científica com o R" do PPG em Ambientometria (Furg 2024)
 
 Este é um repositório produzido na disciplina "Reprodutibilidade de Resultados Cientificos com o R" - Programa de Pós-graduação em Ambientometria da Universidade Federal de Rio Grande - FURG - que propõe a divulgação de métodos e resultados científicos em páginas online de acesso público.
 
@@ -15,12 +17,11 @@ Dentro deste repositório estão páginas, criadas como forma de avaliação da 
 
 ## Principais Tópicos Relacionados à Pesquisa
 
-<a href="pagina1_EcologiaTroficaDeTubaroes.html"style= "color: white;">Ecologia Trofica De Tubaroes</a>
+<a href="pagina1_EcologiaTroficaDeTubaroes.html"style= "color: white;">Ecologia Trófica De Tubarões</a>
 
-<a href="Métodos de Identificação de Estoques Pesqueiros.html"style= "color: white;">Métodos de Identificação de Estoques Pesqueiros</a>
+<a href="Métodos de Identificação de Estoques Pesqueiros.html"style= "color: white;">Métodos de Identificação de Estoques Pesqueiros - **com links externos!**</a>
 
 <a href="Marcadores Químicos na Identificação de Estoques Pesqueiros.html"style= "color: white;">Análises Elementares e Isotópicas na Identificação de Estoques Pesqueiros</a>
-
 
 ## Seleção de Materiais Biológicos a Serem Utilizados nas Análises
 
@@ -47,8 +48,7 @@ ggplot(data, aes(x=categoria, y=valor)) +
 
 ## Após a vértebra ser limpa, emblocada e cortada transversalmente, ela é tingida e colocada contra luz em microscópio para visualização de seus anéis de crescimento que, para as espécies do projeto, se formam a cada ano. Assim, cada seta na foto abaixo indica um ano do animal. A foto é de uma vértebra de tubarão-anequim.
 
-![Vértebra idade](VERT6.jpg){ width=800px height=600px  }
-
+![Vértebra idade](VERT6.jpg){width="800px" height="600px"}
 
 ## Cronograma do Projeto
 
@@ -92,7 +92,6 @@ th, td {
 [VISUALIZAR - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/ArtigoElsevier/ArtigoElsevier.pdf)
 
 [DOWNLOAD - Seasonal patterns on isotopic niches and diet of Bigeye and Southern Spotted Opah (Lamprididae) in Southwestern Atlantic Ocean](https://github.com/GiuliaTerlecki/Reprodutibilidade/raw/main/ArtigoElsevier/ArtigoElsevier.pdf)
-
 
 <style>
   body {
