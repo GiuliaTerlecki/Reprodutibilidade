@@ -85,7 +85,7 @@ th, td {
 | Redação da Tese |  |  |  |  |  |  |  | x | x |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | Defesa da Tese |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
-## Apresentação Simplificada do Projeto de Doutorado
+## Apresentação do Projeto de Doutorado
 
 <a href="pptquartoDocGiulia.html"style= "color: white;">Apresentação Projeto de Doutorado Giulia</a>
 
