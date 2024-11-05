@@ -9,11 +9,11 @@ author:
   - name: Giulia 
     affiliation: '1'
     etal: Terlecki # First author's last name. 
+    email: giuliaterlecki@gmail.com # Indicates corresponding Author
   - name: Silvina Botta
     affiliation: '2'
   - name: Luis Gustavo Cardoso
     affiliation: '1'
-    email: giuliaterlecki@gmail.com # Indicates corresponding Author
     institution: Laboratório de Dinâmica Populacional Pesqueira, Instituto de Oceanografia, Programa de pós-graduação em Oceanografia Biológica, Universidade Federal do Rio Grande
     street: Avenida Itália
     city: Rio Grande
