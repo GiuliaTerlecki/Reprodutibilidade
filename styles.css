@@ -6,11 +6,11 @@
    }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: white !important; /* Cor dos títulos */
+    color: darkblue !important; /* Cor dos títulos */
 }
 
 .reveal p, .reveal li, .reveal blockquote {
-    color: white !important; /* Cor do texto dos slides */
+    color: darkblue !important; /* Cor do texto dos slides */
 }
 .reveal h1 {
     font-size: 2em; /* Ajuste este valor conforme necessário */
@@ -26,7 +26,7 @@
 }
 
 .reveal h3 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 /* Ajustes de cor ou outros estilos */

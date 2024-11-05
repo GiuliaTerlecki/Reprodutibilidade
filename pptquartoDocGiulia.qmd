@@ -94,16 +94,52 @@ Formula de transformação das medidas interdorsais em comprimento furcal para o
 
 ------------------------------------------------------------------------
 
+## Tabela de Dados
+
+| Espécie          | Comprimento Furcal (cm) | δ13C (‰) | δ15N (‰) |
+|------------------|-------------------------:|---------:|---------:|
+| Tubarão Azul     | 150                      | -18.5    | 15.2     |
+| Tubarão Mako     | 180                      | -17.8    | 16.1     |
+| Tubarão Azul     | 200                      | -19.0    | 14.8     |
+| Tubarão Mako     | 210                      | -18.2    | 15.9     |
+
+------------------------------------------------------------------------
+
 ## Análise Isotópica
 
 \-***δ***<sup>13</sup>C e ***δ***<sup>15</sup>N: Utilização de Espectrometria de Massas de Razão Isotópica (IRMS).\
 - **Processamento**: Subamostras obtidas com microamostrador Micromill e analisadas no IRMS para determinar a posição trófica e uso de habitat.
+
+
+## Fórmula de Cálculo Isotópico
+
+A composição isotópica de carbono e nitrogênio das amostras pode ser calculada usando as seguintes equações:
+
+$$
+\delta^{13}\text{C} (\text{‰}) = \left( \frac{{^{13}\text{C}/^{12}\text{C}}_{\text{amostra}}}{{^{13}\text{C}/^{12}\text{C}}_{\text{padrão}}} - 1 \right) \times 1000
+$$
+
+$$
+\delta^{15}\text{N} (\text{‰}) = \left( \frac{{^{15}\text{N}/^{14}\text{N}}_{\text{amostra}}}{{^{15}\text{N}/^{14}\text{N}}_{\text{padrão}}} - 1 \right) \times 1000
+$$
+
 
 ## Análise Elementar
 
 -   **Composição Elementar**: Ablação a laser conectada a ICP-MS para quantificação de elementos como Sr, Ba, e Ca.
 -   **Aplicações**: Determinação da conectividade e migração dos tubarões com base nas assinaturas elementares das vértebras.
 
+| ![](stockarea.jpg) | ![](grupo2.png) | ![](group22.png) |
+|--------------------|--------------------|---------------|
+
+## Artigo modelo
+
+[![Mohan et al 2023 - Inferring habitat use of the Pacific White Shark using vertebral chemistry](https://www.frontiersin.org/files/Articles/1082219/fmars-09-1082219-HTML/image_m/fmars-09-1082219-g002.jpg){width=250 height=180}](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.1082219/full)
+
+[![Livernois et al 2021 - Ontogenetic Patterns of Elemental Tracers in the Vertebrae Cartilage of Coastal and Oceanic Sharks](https://www.frontiersin.org/files/Articles/704134/fmars-08-704134-HTML/image_m/fmars-08-704134-g002.jpg){width=320 height=160}](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.704134/full)
+
 # Agradecimentos
 
 Agradeço ao Programa de Pós-Graduação em Oceanografia Biológica – FURG, ao Laboratório de Dinâmica Populacional Pesqueira (LaDIPP), e ao Laboratório de Ecologia e Conservação da Megafauna Marinha (ECOMEGA) pelo suporte ao projeto.
+
+![Obrigada!](icone.png)
