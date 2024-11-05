@@ -159,6 +159,6 @@ assim porque a formula estava dando bugg e eu nao consegui resolver mas queria c
 
 # Agradecimentos
 
-Agradeço ao Programa de Pós-Graduação em Oceanografia Biológica – FURG, ao Laboratório de Dinâmica Populacional Pesqueira (LaDIPP), e ao Laboratório de Ecologia e Conservação da Megafauna Marinha (ECOMEGA) pelo suporte ao projeto.
+Agradeço ao Programa de Pós-Graduação em Oceanografia  Biológica – FURG, ao Laboratório de Dinâmica Populacional Pesqueira (LaDIPP), e ao Laboratório de Ecologia e Conservação da Megafauna Marinha (ECOMEGA) pelo suporte ao projeto.
 
 ![Obrigada!](icone.png)

@@ -69,7 +69,7 @@ th, td {
 </style>
 
 | Ano | 2023 |   |   | 2024 |   |   |   |   |   | 2025 |   |   |   |   |   | 2026 |   |   |   |   |   | 2027 |   |   |
-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Atividades | 1 | 2 | 3 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 | 4 | 5 | 6 | 1 | 2 | 3 |
 | Levantamento Bibliográfico | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x | x |
 | Disciplinas |  |  |  | x | x | x | x | x | x | x | x | x |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -95,7 +95,7 @@ th, td {
 
 <iframe src="Frontiers.pdf" width="100%" height="600px">
 
-Este navegador não suporta visualização de PDF. Você pode fazer o download do PDF [aqui](C:\Users\giuli\Dropbox\Doutorado\Disciplinas%20DOC\Reprodutibilidade%20de%20Resultados%20Estatísticos%20com%20o%20R\Reprodutibilidade\arquivo.pdf).
+Este navegador não suporta visualização de PDF. Você pode fazer o download do PDF [aqui](Frontiers.pdf).
 
 </iframe>
 
