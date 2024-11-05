@@ -5,7 +5,9 @@ editor: visual
 theme: quartz
 ---
 
-## Giulia Terlecki
+## Giulia Terlecki 
+
+![](icone.png){width=200 height=200}
 
 ### [*Agredeço a oportunidade de melhorar o projeto.*]{.underline}
 
@@ -95,14 +97,14 @@ th, td {
 
 <style>
   body {
-    background-image: url('https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/fundotuba.png');
+    background-image: url('https://raw.githubusercontent.com/GiuliaTerlecki/Reprodutibilidade/main/AGUA2.jpg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
   }
 
   h1, h2, p {
-    color: white;
+    color: darkblue;
   }
 </style>
 
@@ -112,4 +114,4 @@ th, td {
 
 </html>
 
-<head><link rel="icon" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon"></head>
+<head><link rel="icon.ico" href="https://github.com/GiuliaTerlecki/Reprodutibilidade/blob/main/icone.ico" type="image/x-icon"></head>
