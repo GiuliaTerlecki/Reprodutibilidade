@@ -45,7 +45,7 @@ ggplot(data, aes(x=categoria, y=valor)) +
        y="Valor")
 ```
 
-## Após a vértebra ser limpa, emblocada e cortada transversalmente, ela é tingida e colocada contra luz em microscópio para visualização de seus anéis de crescimento que, para as espécies do projeto, se formam a cada ano. Assim, cada seta na foto abaixo indica um ano do animal. A foto é de uma vértebra de Tubarão-anequim.
+## Após a vértebra ser limpa, emblocada e cortada transversalmente, ela é tingida e colocada contra luz em microscópio para visualização de seus anéis de crescimento que, para as espécies do projeto, se formam a cada ano. Assim, cada seta na foto abaixo indica um ano do animal. A foto é de uma vértebra de tubarão-anequim.
 
 ![Vértebra idade](VERT6.jpg){ width=800px height=600px  }
 
