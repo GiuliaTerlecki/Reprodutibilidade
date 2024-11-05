@@ -1,39 +1,44 @@
 ---
-title: "Uso de Habitat de Tubarões Azul e Anequim no Oceano Atlântico Sul"
-runtitle: "Habitat de Tubarões no Atlântico Sul"
+title: "Article Title"
+runtitle: "Short Title"
 documentclass: FrontiersinHarvard # for articles in journals using the Harvard Referencing Style (Author-Date), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 # documentclass: FrontiersinVancouver # for articles in journals using the Vancouver Reference Style (Numbered), for Frontiers Reference Styles by Journal: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 # documentclass: frontiersinFPHY_FAMS # Vancouver Reference Style (Numbered) for articles in the journals "Frontiers in Physics" and "Frontiers in Applied Mathematics and Statistics" 
 classoption: utf8
 author:
-  - name: Giulia 
+  - name: First Author
     affiliation: '1'
-    etal: Terlecki # First author's last name. 
-  - name: Silvina Botta
+    etal: LASTNAME # First author's last name. 
+  - name: Co-Author
     affiliation: '2'
-  - name: Luis Gustavo Cardoso
-    affiliation: '1'
-    email: giuliaterlecki@gmail.com # Indicates corresponding Author
-    institution: Laboratório de Dinâmica Populacional Pesqueira, Instituto de Oceanografia, Programa de pós-graduação em Oceanografia Biológica, Universidade Federal do Rio Grande
-    street: Avenida Itália
-    city: Rio Grande
-    state: Rio Grande do Sul
-    zip: 9645000
-    country: Brazil
+  - name: Co-Author
+    affiliation: '1,3'
+    email: email@uni.edu # Indicates corresponding Author
+    institution: Laboratory X, Institute X, Department X, Organization X
+    street: Street X
+    city: City X
+    state: State XX # only USA, Australia, Canada
+    zip: Zip Code X
+    country: Country X
 affiliation:
   - id: '1'
-    department: Laboratório de Dinâmica Populacional Pesqueira, Instituto de Oceanografia, Programa de pós-graduação em Oceanografia Biológica
-    institution: Universidade Federal do Rio Grande
-    city: Rio Grande
-    state: Rio Grande do Sul
-    country: Brazil
+    department: Department X
+    institution: Institution X
+    city: City X
+    state: State XX # only USA, Australia, Canada
+    country: Country X
   - id: '2' 
     department: Department X
-    institution: Universidade Federal do Rio Grande
-    city: Rio Grande
-    state: Rio Grande do Sul 
-    country: Brazil
-  
+    institution: Institution X
+    city: City X
+    state: State XX # only USA, Australia, Canada
+    country: Country X
+  - id: '3' 
+    department: Department X
+    institution: Institution X
+    city: City X
+    state: State XX # only USA, Australia, Canada
+    country: Country X
 # Abstract can also be provided at the 
 abstract: |
   Abstract length and content varies depending on article type. Refer to 
@@ -47,44 +52,44 @@ keywords: # All article types: you may provide up to 8 keywords; at least 5 are 
   - kw5
 output: rticles::frontiers_article
 # csl: frontiers.csl
-bibliography: RefsFRONTIERS.bib
+bibliography: test.bib
 # Match bibliostyle with the documentclass
 biblio-style: Frontiers-Harvard # Many Frontiers journals use the Harvard referencing system (Author-date), to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal. For Humanities and Social Sciences articles please include page numbers in the in-text citations 
 #biblio-style: Frontiers-Vancouver # Many Frontiers journals use the numbered referencing system, to find the style and resources for the journal you are submitting to: https://zendesk.frontiersin.org/hc/en-us/articles/360017860337-Frontiers-Reference-Styles-by-Journal
 ---
 
 # Introduction {-}
+Cite fancy references [@Neuro2013]. As demonstrated in @Gene2012, citations can
+also be automatically reference. Multiple references are separated by semicolons
+[@Neuro2013; @Neurobot2013].
 
-O tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) são duas das principais espécies de tubarões pelágicos do Atlântico, com distribuições amplas e migratórias que as tornam vulneráveis à exploração pesqueira [@Campana2004; @Stevens2010]. Essas espécies desempenham papéis ecológicos fundamentais nos ecossistemas marinhos, regulando as populações de suas presas e contribuindo para a manutenção do equilíbrio ecológico [@Heithaus2008]. Estudos recentes destacam a importância de compreender a conectividade populacional desses tubarões para desenvolver estratégias de manejo que considerem sua natureza transoceânica e evitem o declínio populacional [@Queiroz2019; @Ferreira2017].
+# Results {-}
 
-O uso de análises isotópicas e microquímicas em vértebras de tubarões tem se mostrado uma ferramenta valiosa para rastrear padrões de migração, conectividade e mudanças ontogenéticas em hábitos alimentares [@Estrada2006; @Hussey2015]. Através dessas análises, é possível identificar as áreas de alimentação e os movimentos sazonais das espécies, fornecendo insights sobre as dinâmicas de habitat e as interações tróficas ao longo de diferentes fases da vida dos tubarões [@Carlisle2015; @MacNeil2005].
+<!-- Comments should be HTML-style comments -->
 
-### Fórmula para Posição Trófica {-}
+## Subsection 1 {-}
 
-Para estimar a posição trófica dos tubarões analisados, foi utilizada a seguinte fórmula de enriquecimento isotópico de nitrogênio entre predador e presa:
+You can use `R` chunks directly to plot graphs.  
 
-\[
-\Delta^{15}N = \delta^{15}N_{predador} - \delta^{15}N_{presa}
-\]
+```{r graph, echo = TRUE, message=FALSE, fig.show = "hide"}
+x <- 0:100
+set.seed(999)
+y <- 2 * (x + rnorm(length(x), sd = 3) + 3)
+plot(x, y)
+```
 
-onde \(\delta^{15}N\) representa o valor isotópico de nitrogênio nas amostras de vértebras, possibilitando inferir a posição trófica e os hábitos alimentares ontogenéticos dos indivíduos [@Shiffman2019; @Rooker2008].
+## Subsection 2 {-}
 
-Estudos como o de @Queiroz2019 demonstram que o tubarão azul exibe conectividade entre regiões do Atlântico, reforçando a necessidade de uma abordagem de manejo cooperativa entre diferentes países. Este estudo visa investigar a sobreposição de nicho entre o tubarão azul e o anequim no Atlântico Sul e avaliar a conectividade do tubarão azul entre as regiões sudoeste e sudeste do oceano.
-
- Results {-}
-
-Espera-se que os resultados deste estudo revelem uma sobreposição significativa de nicho entre o tubarão azul (*Prionace glauca*) e o anequim (*Isurus oxyrinchus*) no Atlântico Sul. A análise isotópica deverá indicar variações na posição trófica entre as fases ontogenéticas dos tubarões, evidenciando especializações alimentares em diferentes estágios de vida [@Carlisle2015; @Estrada2006].
-
-(mapa do Atlântico Sul) com as rotas de migração estimadas dos tubarões azul e anequim, destacando os pontos de coleta das amostras de vértebras, é uma adição importante. Esse mapa visualizaria as conexões entre as regiões sudoeste e sudeste do Atlântico e outras áreas relevantes, demonstrando visualmente a distribuição e possíveis rotas migratórias das duas espécies.
-
+Frontiers requires figures to be submitted individually, in the same order as
+they are referred to in the manuscript. Figures will then be automatically
+embedded at the bottom of the submitted manuscript. Kindly ensure that each
+table and figure is mentioned in the text and in numerical order. Permission
+must be obtained for use of copyrighted material from other sources (including
+the web). Please note that it is compulsory to follow figure instructions.
+Figures which are not according to the guidelines will cause substantial delay
+during the production process.
 
 # Discussion
-
-Os resultados sugerem uma significativa sobreposição de nicho entre o tubarão azul (Prionace glauca) e o anequim (Isurus oxyrinchus) no Atlântico Sul, com ambos ocupando habitats pelágicos similares para alimentação e reprodução. Essa sobreposição de nicho pode indicar competição por recursos nas áreas onde as duas espécies coabitam, o que pode ter implicações importantes para a gestão pesqueira, especialmente considerando que ambas as espécies já são vulneráveis à exploração.
-
-As análises isotópicas revelaram variações na posição trófica ao longo das diferentes fases ontogenéticas dos tubarões, sugerindo que essas espécies adaptam suas dietas conforme amadurecem. Esse comportamento pode indicar uma especialização alimentar que permite às espécies explorar diferentes recursos tróficos, minimizando a competição em determinadas fases de vida. Além disso, a conectividade transoceânica observada nas amostras de tubarão azul reforça a importância de estratégias de manejo colaborativas entre as nações do Atlântico, visto que essas populações podem depender de áreas de alimentação e reprodução em várias regiões geográficas.
-
-Essas descobertas oferecem uma base valiosa para futuras recomendações de conservação, que devem considerar a dinâmica de conectividade e a especialização trófica ao longo da vida dessas espécies.
 
 # Disclosure/Conflict-of-Interest Statement {-}
 
@@ -135,15 +140,21 @@ should not be listed as authors, but they should be acknowledged.
 (http://www.icmje.org/roles_a.html)
 
 -->
-Giulia Terlecki: Led study design, objectives, and methodology. Conducted isotopic and microchemical analyses, interpreted data, and drafted the manuscript. Approved the final version and is accountable for data accuracy and conclusions.
 
-Silvina Bota: Provided technical support in microchemical methodology and contributed to the critical review, ensuring methodological accuracy. Approved the final version and is responsible for the precision of microchemical analyses.
-
-Luis Gustavo Cardoso: Offered guidance on study conception, statistical analysis, and manuscript revisions, contextualizing findings within the literature. Approved the final version and ensures content integrity.
+The statement about the authors and contributors can be up to several sentences
+long, describing the tasks of individual authors referred to by their initials
+and should be included at the end of the manuscript before the References
+section.
 
 
 # Acknowledgments {-}
 
-This study was supported by funding from the Coordination for the Improvement of Higher Education Personnel (CAPES), the National Council for Scientific and Technological Development (CNPq), and the Office of the Dean of Extension and Culture (PROEX). We also thank the Institute of Coastal and Marine Ecosystem Research (ICACAT) for additional support.
+Funding:
 
+# Supplemental Data {-}
+
+Supplementary Material should be uploaded separately on submission, if there are
+Supplementary Figures, please include the caption in the same file as the
+figure. LaTeX Supplementary Material templates can be found in the Frontiers
+LaTeX folder
 
