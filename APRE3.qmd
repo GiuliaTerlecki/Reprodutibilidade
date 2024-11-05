@@ -1,0 +1,138 @@
+---
+title: "APRESENTACAO"
+format: pptx
+editor: visual
+---
+
+## 
+
+---
+title: "Ecologia Alimentar e Uso de Habitat durante a Ontogenia dos Tubarões Azul (*Prionace glauca*) e Mako (*Isurus oxyrinchus*) no Oceano Atlântico Sul"
+author: "Giulia Terlecki"
+format: revealjs
+theme: solar
+css: styles.css
+---
+
+<style>
+  h1, h2, h3, h4, h5, h6, p, li, blockquote {
+    color: white !important;
+  }
+</style>
+
+# Introdução
+
+## Elasmobrânquios - Predadores de Topo
+
+-   **Diversidade e Distribuição**: Altamente diversificados e amplamente distribuídos nos oceanos.
+-   **Vulnerabilidade**: Maturidade tardia, baixa fecundidade e crescimento lento, tornando-os sensíveis à pesca intensiva.
+-   **Importância Ecológica**: Estruturam teias tróficas marinhas e exercem controle 'top-down'.
+
+![Tubarão Azul](https://example.com/tubarao_azul.jpg){width="600px" height="400px"}
+
+## Desafios na Conservação
+
+-   **Declínio Populacional**: Redução drástica da abundância de tubarões nas últimas décadas.
+-   **Manejo e Conservação**: Necessidade de informações sobre uso de habitat e status das espécies para manejo eficaz.
+
+# Uso de Habitat
+
+## Distribuição Espacial
+
+-   **Tubarão Azul**: Habita águas mais profundas durante o dia e retorna à superfície à noite.
+-   **Tubarão Mako**: Prefere águas mais quentes e superficiais.
+
+![Distribuição Espacial](https://example.com/distribuicao_espacial.jpg){width="600px" height="400px"}
+
+## Diferenças Tróficas
+
+-   **Tubarão Azul**: Consome principalmente cefalópodes.
+-   **Tubarão Mako**: Alimenta-se de teleósteos.
+
+# Movimentação e Migração
+
+## Migração Transatlântica
+
+-   **Tubarão Azul**: Apresenta movimentos migratórios significativos ao longo da ontogenia.
+
+## Segregação Sexual
+
+-   **Diferenças no Uso de Habitat**: Machos e fêmeas utilizam habitats distintos, relacionados à reprodução e disponibilidade de presas.
+
+# Sobreposição de Nicho
+
+## Variação Ontogenética
+
+-   **Tubarão Azul**: Maior variação ontogenética em comparação com o tubarão mako.
+
+## Especialização Individual
+
+-   **Estratégias Diferenciadas**: Indivíduos apresentam estratégias diferenciadas de uso de recursos para minimizar a competição intraespecífica.
+
+# Implicações para Conservação
+
+## Gestão de Estoques Pesqueiros
+
+-   Necessidade de informações detalhadas sobre uso de habitat para efetiva gestão e conservação das espécies.
+
+## Efeitos da Pesca
+
+-   A pesca intensiva tem impactos críticos sobre a estrutura populacional e a distribuição dos tubarões no OAS.
+
+# Objetivos
+
+## Objetivo Geral
+
+Avaliar a variabilidade intra e interespecífica no uso de habitat dos tubarões azul e mako no Sudoeste do Oceano Atlântico Sul e a movimentação transatlântica do tubarão azul ao longo de sua ontogenia.
+
+## Objetivos Específicos
+
+1.  Obter séries temporais de isótopos estáveis de carbono (δ13C) e nitrogênio (δ15N) das vértebras dos tubarões.
+2.  Avaliar a sobreposição de nicho trófico entre os tubarões azul e mako.
+3.  Analisar a especialização individual no uso de recursos e habitat.
+4.  Examinar a movimentação do tubarão azul usando perfis isotópicos e microquímicos.
+
+# Metodologia
+
+## Áreas de Estudo
+
+-   **Sudoeste do Oceano Atlântico Sul (OAS)**: Limitado pela Convergência Subtropical (30–36°S).
+-   **Influências Oceanográficas**: Corrente do Brasil e Corrente das Malvinas criam ressurgências que sustentam intensa atividade biológica.
+
+![Mapa da Área de Estudo](https://example.com/mapa_area_estudo.jpg){width="600px" height="400px"}
+
+## Coleta de Amostras
+
+-   Vértebras coletadas durante desembarques pesqueiros da frota de espinhel de superfície.
+-   **Amostragem no OAS**: 1933 vértebras coletadas entre 2018 e 2023, incluindo tubarões azul e mako. 60 amostras de cada espécie serão utilizadas nas análises.
+
+## Análise Isotópica
+
+-   **δ13C e δ15N**: Utilização de Espectrometria de Massas de Razão Isotópica (IRMS).
+-   **Processamento**: Subamostras obtidas com microamostrador Micromill e analisadas no IRMS para determinar a posição trófica e uso de habitat.
+
+## Análise Elementar
+
+-   **Composição Elementar**: Ablação a laser conectada a ICP-MS para quantificação de elementos como Sr, Ba e Ca.
+-   **Aplicações**: Determinação da conectividade e migração dos tubarões com base nas assinaturas elementares das vértebras.
+
+# Resultados Esperados
+
+## Tabela de Dados
+
+| Espécie      | Comprimento Furcal (cm) | δ13C (‰) | δ15N (‰) |
+|--------------|------------------------:|---------:|---------:|
+| Tubarão Azul |                     150 |    -18.5 |     15.2 |
+| Tubarão Mako |                     180 |    -17.8 |     16.1 |
+| Tubarão Azul |                     200 |    -19.0 |     14.8 |
+| Tubarão Mako |                     210 |    -18.2 |     15.9 |
+
+## Fórmula de Cálculo Isotópico
+
+A composição isotópica de carbono e nitrogênio das amostras pode ser calculada usando as seguintes equações:
+
+$$
+\delta^{13}\text{C} (\text{‰}) = \left( \frac{{^{13}\text{C}/^{12}\text{C}}_{\text{amostra}}}{{^{13}\text{C}/^{12}\text{C}}_{\text{padrão}}} - 1 \right) \times 1000
+$$
+
+\$\$ \delta\^{15}\text{N} (\text{‰}) = \left( \\frac{{^{15}^\text{N}/{14}\text{N}}\_{\\text{amostra ::contentReference[oaicite:0]{index="0"}
